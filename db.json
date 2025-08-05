@@ -1,93 +1,93 @@
 {
-  "Allflights": [
+  "flights": [
     {
-    "country": "Azerbaijan",
-    "title": "(AZ)",
-    "cities": [
-      {
-        "name": "Baku",
-        "flights": [
-          {
-            "id": 197,
-            "from": "Istanbul",
-            "to": "Baku",
-            "departure": "2025-08-01T08:00",
-            "arrival": "2025-08-01T11:00",
-            "price": 150,
-            "airline": "Azerbaijan Airlines"
-          },
-          {
-            "id": 198,
-            "from": "Moscow",
-            "to": "Baku",
-            "departure": "2025-08-05T10:00",
-            "arrival": "2025-08-05T13:00",
-            "price": 180,
-            "airline": "Azerbaijan Airlines",
-            "roundTrip": {
-              "departure": "2025-08-12T14:00",
-              "arrival": "2025-08-12T17:00"
+      "country": "Azerbaijan",
+      "title": "(AZ)",
+      "cities": [
+        {
+          "name": "Baku",
+          "flights": [
+            {
+              "id": 197,
+              "from": "Istanbul",
+              "to": "Baku",
+              "departure": "2025-08-01T08:00",
+              "arrival": "2025-08-01T11:00",
+              "price": 150,
+              "airline": "Azerbaijan Airlines"
+            },
+            {
+              "id": 198,
+              "from": "Moscow",
+              "to": "Baku",
+              "departure": "2025-08-05T10:00",
+              "arrival": "2025-08-05T13:00",
+              "price": 180,
+              "airline": "Azerbaijan Airlines",
+              "roundTrip": {
+                "departure": "2025-08-12T14:00",
+                "arrival": "2025-08-12T17:00"
+              }
+            },
+            {
+              "id": 199,
+              "from": "Dubai",
+              "to": "Baku",
+              "departure": "2025-08-10T12:00",
+              "arrival": "2025-08-10T15:00",
+              "price": 220,
+              "airline": "Flydubai"
+            },
+            {
+              "id": 200,
+              "from": "London",
+              "to": "Baku",
+              "departure": "2025-08-15T09:00",
+              "arrival": "2025-08-15T14:00",
+              "price": 280,
+              "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
+              "airline": "British Airways",
+              "roundTrip": {
+                "departure": "2025-08-22T15:00",
+                "arrival": "2025-08-22T20:00"
+              }
             }
-          },
-          {
-            "id": 199,
-            "from": "Dubai",
-            "to": "Baku",
-            "departure": "2025-08-10T12:00",
-            "arrival": "2025-08-10T15:00",
-            "price": 220,
-            "airline": "Flydubai"
-          },
-          {
-            "id": 200,
-            "from": "London",
-            "to": "Baku",
-            "departure": "2025-08-15T09:00",
-            "arrival": "2025-08-15T14:00",
-            "price": 280,
-            "image":"https://www.skyscanner.net/images/airlines/small/BA.png",
-            "airline": "British Airways",
-            "roundTrip": {
-              "departure": "2025-08-22T15:00",
-              "arrival": "2025-08-22T20:00"
+          ]
+        },
+        {
+          "name": "Ganja",
+          "flights": [
+            {
+              "id": 201,
+              "from": "Istanbul",
+              "to": "Ganja",
+              "departure": "2025-08-03T11:00",
+              "arrival": "2025-08-03T14:00",
+              "price": 160,
+              "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
+              "airline": "Turkish Airlines"
+            },
+            {
+              "id": 202,
+              "from": "Moscow",
+              "to": "Ganja",
+              "departure": "2025-08-08T13:00",
+              "arrival": "2025-08-08T16:00",
+              "price": 190,
+              "airline": "Azerbaijan Airlines"
             }
-          }
-        ]
-      },
-      {
-        "name": "Ganja",
-        "flights": [
-          {
-            "id": 201,
-            "from": "Istanbul",
-            "to": "Ganja",
-            "departure": "2025-08-03T11:00",
-            "arrival": "2025-08-03T14:00",
-            "price": 160,
-            "image":"https://www.skyscanner.net/images/airlines/small/TK.png",
-            "airline": "Turkish Airlines"
-          },
-          {
-            "id": 202,
-            "from": "Moscow",
-            "to": "Ganja",
-            "departure": "2025-08-08T13:00",
-            "arrival": "2025-08-08T16:00",
-            "price": 190,
-            "airline": "Azerbaijan Airlines"
-          }
-        ]
-      }
-    ],
-    "id": "a1b2"
-  },
+          ]
+        }
+      ],
+      "id": "a1b2"
+    },
     {
       "country": "Kazakhstan",
-      "title":"(KZ)",
+      "title": "(KZ)",
       "cities": [
         {
           "name": "Almaty",
-          "image":"almaty.png",
+          "image": "almaty.png",
           "flights": [
             {
               "id": 1,
@@ -107,7 +107,7 @@
               "arrival": "2025-08-10T14:00",
               "price": 350,
               "airline": "Qazaq Air",
-              "image":"data:image/png;base64,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",
+              "image": "data:image/png;base64,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",
               "roundTrip": {
                 "departure": "2025-08-20T15:00",
                 "arrival": "2025-08-20T19:00"
@@ -121,7 +121,7 @@
               "arrival": "2025-08-10T12:00",
               "price": 210,
               "airline": "Scat Airlines",
-              "image":"https://www.skyscanner.net/images/airlines/small/9A.png"
+              "image": "https://www.skyscanner.net/images/airlines/small/9A.png"
             },
             {
               "id": 4,
@@ -145,7 +145,7 @@
               "arrival": "2025-08-10T11:00",
               "price": 230,
               "airline": "Scat Airlines",
-              "image":"https://www.skyscanner.net/images/airlines/small/9A.png"
+              "image": "https://www.skyscanner.net/images/airlines/small/9A.png"
             },
             {
               "id": 102,
@@ -169,7 +169,7 @@
               "arrival": "2025-08-10T13:00",
               "price": 215,
               "airline": "Qazaq Air",
-              "image":"data:image/png;base64,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"
+              "image": "data:image/png;base64,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"
             },
             {
               "id": 104,
@@ -179,7 +179,7 @@
               "arrival": "2025-08-10T14:00",
               "price": 330,
               "airline": "Scat Airlines",
-              "image":"https://www.skyscanner.net/images/airlines/small/9A.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/9A.png",
               "roundTrip": {
                 "departure": "2025-08-20T11:00",
                 "arrival": "2025-08-20T15:00"
@@ -189,7 +189,7 @@
         },
         {
           "name": "Astana",
-          "image":"astana.png",
+          "image": "astana.png",
           "flights": [
             {
               "id": 5,
@@ -199,7 +199,7 @@
               "arrival": "2025-08-10T16:00",
               "price": 250,
               "airline": "Scat Airlines",
-              "image":"https://www.skyscanner.net/images/airlines/small/9A.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/9A.png",
               "roundTrip": {
                 "departure": "2025-08-20T14:00",
                 "arrival": "2025-08-20T18:00"
@@ -223,7 +223,7 @@
               "arrival": "2025-08-10T11:00",
               "price": 220,
               "airline": "Qazaq Air",
-              "image":"data:image/png;base64,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"
+              "image": "data:image/png;base64,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"
             },
             {
               "id": 8,
@@ -233,7 +233,7 @@
               "arrival": "2025-08-10T14:00",
               "price": 350,
               "airline": "Scat Airlines",
-              "image":"https://www.skyscanner.net/images/airlines/small/9A.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/9A.png",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
                 "arrival": "2025-08-20T20:00"
@@ -261,7 +261,7 @@
               "arrival": "2025-08-10T12:00",
               "price": 370,
               "airline": "Qazaq Air",
-              "image":"data:image/png;base64,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"
+              "image": "data:image/png;base64,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"
             },
             {
               "id": 107,
@@ -271,7 +271,7 @@
               "arrival": "2025-08-10T18:00",
               "price": 225,
               "airline": "Scat Airlines",
-              "image":"https://www.skyscanner.net/images/airlines/small/9A.png"
+              "image": "https://www.skyscanner.net/images/airlines/small/9A.png"
             },
             {
               "id": 108,
@@ -291,7 +291,7 @@
         },
         {
           "name": "Shymkent",
-          "image":"shymkent.png",
+          "image": "shymkent.png",
           "flights": [
             {
               "id": 9,
@@ -301,7 +301,7 @@
               "arrival": "2025-08-10T12:00",
               "price": 210,
               "airline": "Qazaq Air",
-              "image":"data:image/png;base64,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"
+              "image": "data:image/png;base64,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"
             },
             {
               "id": 10,
@@ -325,7 +325,7 @@
               "arrival": "2025-08-10T18:00",
               "price": 215,
               "airline": "Scat Airlines",
-              "image":"https://www.skyscanner.net/images/airlines/small/9A.png"
+              "image": "https://www.skyscanner.net/images/airlines/small/9A.png"
             },
             {
               "id": 12,
@@ -335,7 +335,7 @@
               "arrival": "2025-08-10T13:00",
               "price": 330,
               "airline": "Qazaq Air",
-              "image":"data:image/png;base64,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",
+              "image": "data:image/png;base64,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",
               "roundTrip": {
                 "departure": "2025-08-20T10:00",
                 "arrival": "2025-08-20T14:00"
@@ -363,7 +363,7 @@
               "arrival": "2025-08-10T11:00",
               "price": 320,
               "airline": "Scat Airlines",
-              "image":"https://www.skyscanner.net/images/airlines/small/9A.png"
+              "image": "https://www.skyscanner.net/images/airlines/small/9A.png"
             },
             {
               "id": 111,
@@ -373,7 +373,7 @@
               "arrival": "2025-08-10T17:00",
               "price": 225,
               "airline": "Qazaq Air",
-              "image":"data:image/png;base64,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"
+              "image": "data:image/png;base64,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"
             },
             {
               "id": 112,
@@ -396,11 +396,11 @@
     },
     {
       "country": "Turkey",
-      "title":"(TR)",
+      "title": "(TR)",
       "cities": [
         {
           "name": "Istanbul",
-          "image":"istanbul.png",
+          "image": "istanbul.png",
           "flights": [
             {
               "id": 13,
@@ -409,7 +409,7 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T10:00",
               "price": 180,
-              "image":"https://www.skyscanner.net/images/airlines/small/TK.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines"
             },
             {
@@ -419,7 +419,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T12:00",
               "price": 290,
-              "image":"https://www.skyscanner.net/images/airlines/small/H9.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
@@ -433,7 +433,7 @@
               "departure": "2025-08-10T06:00",
               "arrival": "2025-08-10T09:00",
               "price": 200,
-              "image":"https://www.skyscanner.net/images/airlines/small/TK.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines"
             },
             {
@@ -443,7 +443,7 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T16:00",
               "price": 310,
-              "image":"https://www.skyscanner.net/images/airlines/small/H9.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T15:00",
@@ -457,7 +457,7 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T11:00",
               "price": 190,
-              "image":"https://www.skyscanner.net/images/airlines/small/TK.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T10:00",
@@ -471,7 +471,7 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T14:00",
               "price": 280,
-              "image":"https://www.skyscanner.net/images/airlines/small/H9.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines"
             },
             {
@@ -481,7 +481,7 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T10:00",
               "price": 195,
-              "image":"https://www.skyscanner.net/images/airlines/small/TK.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines"
             },
             {
@@ -491,7 +491,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T17:00",
               "price": 300,
-              "image":"https://www.skyscanner.net/images/airlines/small/H9.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T15:00",
@@ -502,7 +502,7 @@
         },
         {
           "name": "Ankara",
-          "image":"ankara.png",
+          "image": "ankara.png",
           "flights": [
             {
               "id": 17,
@@ -511,7 +511,7 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T14:00",
               "price": 190,
-              "image":"https://www.skyscanner.net/images/airlines/small/TK.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T13:00",
@@ -525,7 +525,7 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T11:00",
               "price": 280,
-              "image":"https://www.skyscanner.net/images/airlines/small/H9.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines"
             },
             {
@@ -535,7 +535,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T12:00",
               "price": 195,
-              "image":"https://www.skyscanner.net/images/airlines/small/TK.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines"
             },
             {
@@ -545,7 +545,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T17:00",
               "price": 290,
-              "image":"https://www.skyscanner.net/images/airlines/small/H9.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T15:00",
@@ -559,7 +559,7 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T13:00",
               "price": 185,
-              "image":"https://www.skyscanner.net/images/airlines/small/TK.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines"
             },
             {
@@ -569,7 +569,7 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T15:00",
               "price": 275,
-              "image":"https://www.skyscanner.net/images/airlines/small/H9.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T14:00",
@@ -583,7 +583,7 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T11:00",
               "price": 200,
-              "image":"https://www.skyscanner.net/images/airlines/small/TK.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines"
             },
             {
@@ -593,7 +593,7 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T18:00",
               "price": 285,
-              "image":"https://www.skyscanner.net/images/airlines/small/H9.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
@@ -604,7 +604,7 @@
         },
         {
           "name": "Izmir",
-          "image":"izmir.png",
+          "image": "izmir.png",
           "flights": [
             {
               "id": 21,
@@ -613,7 +613,7 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T13:00",
               "price": 170,
-              "image":"https://www.skyscanner.net/images/airlines/small/TK.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines"
             },
             {
@@ -623,7 +623,7 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T14:00",
               "price": 260,
-              "image":"https://www.skyscanner.net/images/airlines/small/H9.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T12:00",
@@ -637,7 +637,7 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T10:00",
               "price": 180,
-              "image":"https://www.skyscanner.net/images/airlines/small/TK.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines"
             },
             {
@@ -647,7 +647,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T17:00",
               "price": 270,
-              "image":"https://www.skyscanner.net/images/airlines/small/H9.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T15:00",
@@ -661,7 +661,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T12:00",
               "price": 175,
-              "image":"https://www.skyscanner.net/images/airlines/small/TK.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T11:00",
@@ -675,7 +675,7 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T16:00",
               "price": 255,
-              "image":"https://www.skyscanner.net/images/airlines/small/H9.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines"
             },
             {
@@ -685,7 +685,7 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T11:00",
               "price": 185,
-              "image":"https://www.skyscanner.net/images/airlines/small/TK.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines"
             },
             {
@@ -695,7 +695,7 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T19:00",
               "price": 265,
-              "image":"https://www.skyscanner.net/images/airlines/small/H9.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T17:00",
@@ -709,11 +709,11 @@
     },
     {
       "country": "Russia",
-      "title":"(RU)",
+      "title": "(RU)",
       "cities": [
         {
           "name": "Moscow",
-          "image":"moscow.png",
+          "image": "moscow.png",
           "flights": [
             {
               "id": 25,
@@ -722,7 +722,7 @@
               "departure": "2025-08-10T06:00",
               "arrival": "2025-08-10T09:00",
               "price": 190,
-              "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot"
             },
             {
@@ -732,7 +732,7 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T11:00",
               "price": 320,
-              "image":"https://www.skyscanner.net/images/airlines/small/S7.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T12:00",
@@ -746,7 +746,7 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T10:00",
               "price": 200,
-              "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot"
             },
             {
@@ -756,7 +756,7 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T16:00",
               "price": 310,
-              "image":"https://www.skyscanner.net/images/airlines/small/S7.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T14:00",
@@ -770,7 +770,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T12:00",
               "price": 195,
-              "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot",
               "roundTrip": {
                 "departure": "2025-08-20T11:00",
@@ -784,7 +784,7 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T13:00",
               "price": 305,
-              "image":"https://www.skyscanner.net/images/airlines/small/S7.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines"
             },
             {
@@ -794,7 +794,7 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T11:00",
               "price": 205,
-              "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot"
             },
             {
@@ -804,7 +804,7 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T18:00",
               "price": 315,
-              "image":"https://www.skyscanner.net/images/airlines/small/S7.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
@@ -815,7 +815,7 @@
         },
         {
           "name": "St. Petersburg",
-          "image":"petersburg.png",
+          "image": "petersburg.png",
           "flights": [
             {
               "id": 29,
@@ -824,7 +824,7 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T13:00",
               "price": 185,
-              "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot",
               "roundTrip": {
                 "departure": "2025-08-20T15:00",
@@ -838,7 +838,7 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T10:00",
               "price": 300,
-              "image":"https://www.skyscanner.net/images/airlines/small/S7.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines"
             },
             {
@@ -848,7 +848,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T12:00",
               "price": 195,
-              "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot"
             },
             {
@@ -858,7 +858,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T17:00",
               "price": 290,
-              "image":"https://www.skyscanner.net/images/airlines/small/S7.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T15:00",
@@ -872,7 +872,7 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T14:00",
               "price": 180,
-              "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot"
             },
             {
@@ -882,7 +882,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T12:00",
               "price": 295,
-              "image":"https://www.skyscanner.net/images/airlines/small/S7.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T13:00",
@@ -896,7 +896,7 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T13:00",
               "price": 200,
-              "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot"
             },
             {
@@ -906,7 +906,7 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T19:00",
               "price": 285,
-              "image":"https://www.skyscanner.net/images/airlines/small/S7.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T17:00",
@@ -917,7 +917,7 @@
         },
         {
           "name": "Sochi",
-          "image":"sochi.png",
+          "image": "sochi.png",
           "flights": [
             {
               "id": 33,
@@ -926,7 +926,7 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T14:00",
               "price": 170,
-              "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot"
             },
             {
@@ -936,7 +936,7 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T13:00",
               "price": 260,
-              "image":"https://www.skyscanner.net/images/airlines/small/S7.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T14:00",
@@ -950,7 +950,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T12:00",
               "price": 180,
-              "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot"
             },
             {
@@ -960,7 +960,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T17:00",
               "price": 270,
-              "image":"https://www.skyscanner.net/images/airlines/small/S7.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
@@ -974,7 +974,7 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T15:00",
               "price": 175,
-              "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot",
               "roundTrip": {
                 "departure": "2025-08-20T14:00",
@@ -988,7 +988,7 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T11:00",
               "price": 255,
-              "image":"https://www.skyscanner.net/images/airlines/small/S7.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines"
             },
             {
@@ -998,7 +998,7 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T16:00",
               "price": 185,
-              "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot"
             },
             {
@@ -1008,7 +1008,7 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T18:00",
               "price": 265,
-              "image":"https://www.skyscanner.net/images/airlines/small/S7.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
@@ -1022,11 +1022,11 @@
     },
     {
       "country": "Germany",
-      "title":"(DE)",
+      "title": "(DE)",
       "cities": [
         {
           "name": "Berlin",
-          "image":"berlin.png",
+          "image": "berlin.png",
           "flights": [
             {
               "id": 37,
@@ -1035,7 +1035,7 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T12:00",
               "price": 230,
-              "image":"https://www.skyscanner.net/images/airlines/small/LH.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa"
             },
             {
@@ -1045,7 +1045,7 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 360,
-              "image":"https://www.skyscanner.net/images/airlines/small/EW.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings",
               "roundTrip": {
                 "departure": "2025-08-20T15:00",
@@ -1059,7 +1059,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 220,
-              "image":"https://www.skyscanner.net/images/airlines/small/LH.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa"
             },
             {
@@ -1069,7 +1069,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T18:00",
               "price": 350,
-              "image":"https://www.skyscanner.net/images/airlines/small/EW.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
@@ -1083,7 +1083,7 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T11:00",
               "price": 235,
-              "image":"https://www.skyscanner.net/images/airlines/small/LH.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa",
               "roundTrip": {
                 "departure": "2025-08-20T09:00",
@@ -1097,7 +1097,7 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T16:00",
               "price": 355,
-              "image":"https://www.skyscanner.net/images/airlines/small/EW.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings"
             },
             {
@@ -1107,7 +1107,7 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 225,
-              "image":"https://www.skyscanner.net/images/airlines/small/LH.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa"
             },
             {
@@ -1117,7 +1117,7 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T19:00",
               "price": 345,
-              "image":"https://www.skyscanner.net/images/airlines/small/EW.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings",
               "roundTrip": {
                 "departure": "2025-08-20T17:00",
@@ -1128,7 +1128,7 @@
         },
         {
           "name": "Munich",
-          "image":"munich.png",
+          "image": "munich.png",
           "flights": [
             {
               "id": 41,
@@ -1137,7 +1137,7 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 240,
-              "image":"https://www.skyscanner.net/images/airlines/small/LH.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa",
               "roundTrip": {
                 "departure": "2025-08-20T13:00",
@@ -1151,7 +1151,7 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T12:00",
               "price": 370,
-              "image":"https://www.skyscanner.net/images/airlines/small/EW.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings"
             },
             {
@@ -1161,7 +1161,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 225,
-              "image":"https://www.skyscanner.net/images/airlines/small/LH.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa"
             },
             {
@@ -1171,7 +1171,7 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T19:00",
               "price": 355,
-              "image":"https://www.skyscanner.net/images/airlines/small/EW.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings",
               "roundTrip": {
                 "departure": "2025-08-20T17:00",
@@ -1185,7 +1185,7 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 245,
-              "image":"https://www.skyscanner.net/images/airlines/small/LH.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa"
             },
             {
@@ -1195,7 +1195,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T18:00",
               "price": 365,
-              "image":"https://www.skyscanner.net/images/airlines/small/EW.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
@@ -1209,7 +1209,7 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 230,
-              "image":"https://www.skyscanner.net/images/airlines/small/LH.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa"
             },
             {
@@ -1219,7 +1219,7 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T20:00",
               "price": 350,
-              "image":"https://www.skyscanner.net/images/airlines/small/EW.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings",
               "roundTrip": {
                 "departure": "2025-08-20T18:00",
@@ -1230,7 +1230,7 @@
         },
         {
           "name": "Frankfurt",
-          "image":"frankfurt.png",
+          "image": "frankfurt.png",
           "flights": [
             {
               "id": 45,
@@ -1239,7 +1239,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 225,
-              "image":"https://www.skyscanner.net/images/airlines/small/LH.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa"
             },
             {
@@ -1249,7 +1249,7 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 365,
-              "image":"https://www.skyscanner.net/images/airlines/small/EW.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
@@ -1263,7 +1263,7 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T12:00",
               "price": 230,
-              "image":"https://www.skyscanner.net/images/airlines/small/LH.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa"
             },
             {
@@ -1273,7 +1273,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T18:00",
               "price": 350,
-              "image":"https://www.skyscanner.net/images/airlines/small/EW.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings",
               "roundTrip": {
                 "departure": "2025-08-20T15:00",
@@ -1287,7 +1287,7 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 220,
-              "image":"https://www.skyscanner.net/images/airlines/small/LH.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa",
               "roundTrip": {
                 "departure": "2025-08-20T13:00",
@@ -1301,7 +1301,7 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T16:00",
               "price": 360,
-              "image":"https://www.skyscanner.net/images/airlines/small/EW.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings"
             },
             {
@@ -1311,7 +1311,7 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 235,
-              "image":"https://www.skyscanner.net/images/airlines/small/LH.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa"
             },
             {
@@ -1321,7 +1321,7 @@
               "departure": "2025-08-10T17:00",
               "arrival": "2025-08-10T21:00",
               "price": 355,
-              "image":"https://www.skyscanner.net/images/airlines/small/EW.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings",
               "roundTrip": {
                 "departure": "2025-08-20T19:00",
@@ -1335,11 +1335,11 @@
     },
     {
       "country": "France",
-      "title":"(FR)",
+      "title": "(FR)",
       "cities": [
         {
           "name": "Paris",
-          "image":"paris.png",
+          "image": "paris.png",
           "flights": [
             {
               "id": 49,
@@ -1348,7 +1348,7 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T11:00",
               "price": 240,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
             {
@@ -1358,7 +1358,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 370,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
                 "departure": "2025-08-20T15:00",
@@ -1372,7 +1372,7 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T12:00",
               "price": 230,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
             {
@@ -1382,7 +1382,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T18:00",
               "price": 360,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
@@ -1396,7 +1396,7 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 235,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
             {
@@ -1406,7 +1406,7 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 365,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
@@ -1420,7 +1420,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 245,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
             {
@@ -1430,7 +1430,7 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T19:00",
               "price": 355,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
                 "departure": "2025-08-20T17:00",
@@ -1441,7 +1441,7 @@
         },
         {
           "name": "Lyon",
-          "image":"lyon.png",
+          "image": "lyon.png",
           "flights": [
             {
               "id": 53,
@@ -1450,7 +1450,7 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 220,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
                 "departure": "2025-08-20T12:00",
@@ -1464,7 +1464,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 350,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
             {
@@ -1474,7 +1474,7 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 230,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
             {
@@ -1484,7 +1484,7 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T17:00",
               "price": 360,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
                 "departure": "2025-08-20T15:00",
@@ -1498,7 +1498,7 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T16:00",
               "price": 225,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
             {
@@ -1508,7 +1508,7 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T12:00",
               "price": 345,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
                 "departure": "2025-08-20T14:00",
@@ -1522,7 +1522,7 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 235,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
             {
@@ -1532,7 +1532,7 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T20:00",
               "price": 350,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
                 "departure": "2025-08-20T18:00",
@@ -1543,7 +1543,7 @@
         },
         {
           "name": "Nice",
-          "image":"nice.png",
+          "image": "nice.png",
           "flights": [
             {
               "id": 57,
@@ -1552,7 +1552,7 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T16:00",
               "price": 210,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
             {
@@ -1562,7 +1562,7 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 340,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
                 "departure": "2025-08-20T14:00",
@@ -1576,7 +1576,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 215,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
             {
@@ -1586,7 +1586,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T18:00",
               "price": 330,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
@@ -1600,7 +1600,7 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 205,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
                 "departure": "2025-08-20T13:00",
@@ -1614,7 +1614,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 335,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
             {
@@ -1624,7 +1624,7 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T17:00",
               "price": 220,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
             {
@@ -1634,7 +1634,7 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T19:00",
               "price": 325,
-              "image":"https://www.skyscanner.net/images/airlines/small/AF.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
                 "departure": "2025-08-20T17:00",
@@ -1648,11 +1648,11 @@
     },
     {
       "country": "United Kingdom",
-      "title":"(UK)",
+      "title": "(UK)",
       "cities": [
         {
           "name": "London",
-          "image":"london.png",
+          "image": "london.png",
           "flights": [
             {
               "id": 61,
@@ -1661,7 +1661,7 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T11:00",
               "price": 260,
-              "image":"https://www.skyscanner.net/images/airlines/small/BA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways"
             },
             {
@@ -1671,7 +1671,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 390,
-              "image":"https://www.skyscanner.net/images/airlines/small/VS.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic",
               "roundTrip": {
                 "departure": "2025-08-20T15:00",
@@ -1685,7 +1685,7 @@
               "departure": "2025-08-10T06:00",
               "arrival": "2025-08-10T10:00",
               "price": 270,
-              "image":"https://www.skyscanner.net/images/airlines/small/BA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways"
             },
             {
@@ -1695,7 +1695,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T18:00",
               "price": 380,
-              "image":"https://www.skyscanner.net/images/airlines/small/VS.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
@@ -1709,7 +1709,7 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T12:00",
               "price": 265,
-              "image":"https://www.skyscanner.net/images/airlines/small/BA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways",
               "roundTrip": {
                 "departure": "2025-08-20T10:00",
@@ -1723,7 +1723,7 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 385,
-              "image":"https://www.skyscanner.net/images/airlines/small/VS.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic"
             },
             {
@@ -1733,7 +1733,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 275,
-              "image":"https://www.skyscanner.net/images/airlines/small/BA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways"
             },
             {
@@ -1743,7 +1743,7 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T20:00",
               "price": 375,
-              "image":"https://www.skyscanner.net/images/airlines/small/VS.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic",
               "roundTrip": {
                 "departure": "2025-08-20T18:00",
@@ -1754,7 +1754,7 @@
         },
         {
           "name": "Manchester",
-          "image":"manchester.png",
+          "image": "manchester.png",
           "flights": [
             {
               "id": 65,
@@ -1763,7 +1763,7 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T12:00",
               "price": 250,
-              "image":"https://www.skyscanner.net/images/airlines/small/BA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways",
               "roundTrip": {
                 "departure": "2025-08-20T13:00",
@@ -1777,7 +1777,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 380,
-              "image":"https://www.skyscanner.net/images/airlines/small/VS.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic"
             },
             {
@@ -1787,7 +1787,7 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T11:00",
               "price": 255,
-              "image":"https://www.skyscanner.net/images/airlines/small/BA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways"
             },
             {
@@ -1797,7 +1797,7 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T19:00",
               "price": 360,
-              "image":"https://www.skyscanner.net/images/airlines/small/VS.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
@@ -1811,7 +1811,7 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 245,
-              "image":"https://www.skyscanner.net/images/airlines/small/BA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways"
             },
             {
@@ -1821,7 +1821,7 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T16:00",
               "price": 370,
-              "image":"https://www.skyscanner.net/images/airlines/small/VS.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic",
               "roundTrip": {
                 "departure": "2025-08-20T14:00",
@@ -1835,7 +1835,7 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 260,
-              "image":"https://www.skyscanner.net/images/airlines/small/BA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways"
             },
             {
@@ -1845,7 +1845,7 @@
               "departure": "2025-08-10T17:00",
               "arrival": "2025-08-10T21:00",
               "price": 355,
-              "image":"https://www.skyscanner.net/images/airlines/small/VS.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic",
               "roundTrip": {
                 "departure": "2025-08-20T19:00",
@@ -1856,7 +1856,7 @@
         },
         {
           "name": "Birmingham",
-          "image":"birmingham.png",
+          "image": "birmingham.png",
           "flights": [
             {
               "id": 69,
@@ -1865,7 +1865,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 240,
-              "image":"https://www.skyscanner.net/images/airlines/small/BA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways"
             },
             {
@@ -1875,7 +1875,7 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 370,
-              "image":"https://www.skyscanner.net/images/airlines/small/VS.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic",
               "roundTrip": {
                 "departure": "2025-08-20T14:00",
@@ -1889,7 +1889,7 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T12:00",
               "price": 235,
-              "image":"https://www.skyscanner.net/images/airlines/small/BA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways"
             },
             {
@@ -1899,7 +1899,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T18:00",
               "price": 365,
-              "image":"https://www.skyscanner.net/images/airlines/small/VS.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic",
               "roundTrip": {
                 "departure": "2025-08-20T15:00",
@@ -1913,7 +1913,7 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 230,
-              "image":"https://www.skyscanner.net/images/airlines/small/BA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways",
               "roundTrip": {
                 "departure": "2025-08-20T13:00",
@@ -1927,7 +1927,7 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 360,
-              "image":"https://www.skyscanner.net/images/airlines/small/VS.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic"
             },
             {
@@ -1937,7 +1937,7 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T16:00",
               "price": 245,
-              "image":"https://www.skyscanner.net/images/airlines/small/BA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways"
             },
             {
@@ -1947,7 +1947,7 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T19:00",
               "price": 350,
-              "image":"https://www.skyscanner.net/images/airlines/small/VS.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic",
               "roundTrip": {
                 "departure": "2025-08-20T17:00",
@@ -1961,11 +1961,11 @@
     },
     {
       "country": "United States",
-      "title":"(US)",
+      "title": "(US)",
       "cities": [
         {
           "name": "New York",
-          "image":"newyork.png",
+          "image": "newyork.png",
           "flights": [
             {
               "id": 73,
@@ -1974,7 +1974,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T22:00",
               "price": 600,
-              "image":"https://www.skyscanner.net/images/airlines/small/DL.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines"
             },
             {
@@ -1984,7 +1984,7 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T00:00",
               "price": 1100,
-              "image":"https://www.skyscanner.net/images/airlines/small/UA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T10:00",
@@ -1998,7 +1998,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T22:00",
               "price": 620,
-              "image":"https://www.skyscanner.net/images/airlines/small/DL.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines"
             },
             {
@@ -2008,7 +2008,7 @@
               "departure": "2025-08-10T18:00",
               "arrival": "2025-08-10T02:00",
               "price": 1150,
-              "image":"https://www.skyscanner.net/images/airlines/small/UA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T12:00",
@@ -2022,7 +2022,7 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T23:00",
               "price": 610,
-              "image":"https://www.skyscanner.net/images/airlines/small/DL.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T17:00",
@@ -2036,7 +2036,7 @@
               "departure": "2025-08-10T17:00",
               "arrival": "2025-08-10T01:00",
               "price": 1080,
-              "image":"https://www.skyscanner.net/images/airlines/small/UA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines"
             },
             {
@@ -2046,7 +2046,7 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T00:00",
               "price": 630,
-              "image":"https://www.skyscanner.net/images/airlines/small/DL.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines"
             },
             {
@@ -2056,7 +2056,7 @@
               "departure": "2025-08-10T19:00",
               "arrival": "2025-08-10T03:00",
               "price": 1120,
-              "image":"https://www.skyscanner.net/images/airlines/small/UA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T13:00",
@@ -2067,7 +2067,7 @@
         },
         {
           "name": "Los Angeles",
-          "image":"los.png",
+          "image": "los.png",
           "flights": [
             {
               "id": 77,
@@ -2076,7 +2076,7 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T23:00",
               "price": 630,
-              "image":"https://www.skyscanner.net/images/airlines/small/DL.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T15:00",
@@ -2090,7 +2090,7 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T02:00",
               "price": 1200,
-              "image":"https://www.skyscanner.net/images/airlines/small/UA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines"
             },
             {
@@ -2100,7 +2100,7 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T01:00",
               "price": 640,
-              "image":"https://www.skyscanner.net/images/airlines/small/DL.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines"
             },
             {
@@ -2110,7 +2110,7 @@
               "departure": "2025-08-10T17:00",
               "arrival": "2025-08-10T03:00",
               "price": 1180,
-              "image":"https://www.skyscanner.net/images/airlines/small/UA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T12:00",
@@ -2124,7 +2124,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T00:00",
               "price": 620,
-              "image":"https://www.skyscanner.net/images/airlines/small/DL.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines"
             },
             {
@@ -2134,7 +2134,7 @@
               "departure": "2025-08-10T18:00",
               "arrival": "2025-08-10T04:00",
               "price": 1150,
-              "image":"https://www.skyscanner.net/images/airlines/small/UA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
@@ -2148,7 +2148,7 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T02:00",
               "price": 650,
-              "image":"https://www.skyscanner.net/images/airlines/small/DL.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines"
             },
             {
@@ -2158,7 +2158,7 @@
               "departure": "2025-08-10T19:00",
               "arrival": "2025-08-10T05:00",
               "price": 1170,
-              "image":"https://www.skyscanner.net/images/airlines/small/UA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T14:00",
@@ -2169,7 +2169,7 @@
         },
         {
           "name": "Chicago",
-          "image":"chicago.png",
+          "image": "chicago.png",
           "flights": [
             {
               "id": 81,
@@ -2178,7 +2178,7 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T19:00",
               "price": 580,
-              "image":"https://www.skyscanner.net/images/airlines/small/DL.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines"
             },
             {
@@ -2188,7 +2188,7 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T21:00",
               "price": 1050,
-              "image":"https://www.skyscanner.net/images/airlines/small/UA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T14:00",
@@ -2202,7 +2202,7 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T17:00",
               "price": 590,
-              "image":"https://www.skyscanner.net/images/airlines/small/DL.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines"
             },
             {
@@ -2212,7 +2212,7 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T23:00",
               "price": 1070,
-              "image":"https://www.skyscanner.net/images/airlines/small/UA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
@@ -2226,7 +2226,7 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T20:00",
               "price": 570,
-              "image":"https://www.skyscanner.net/images/airlines/small/DL.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T14:00",
@@ -2240,7 +2240,7 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T18:00",
               "price": 1040,
-              "image":"https://www.skyscanner.net/images/airlines/small/UA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines"
             },
             {
@@ -2250,7 +2250,7 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T19:00",
               "price": 600,
-              "image":"https://www.skyscanner.net/images/airlines/small/DL.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines"
             },
             {
@@ -2260,7 +2260,7 @@
               "departure": "2025-08-10T17:00",
               "arrival": "2025-08-10T01:00",
               "price": 1060,
-              "image":"https://www.skyscanner.net/images/airlines/small/UA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines",
               "roundTrip": {
                 "departure": "2025-08-20T18:00",
@@ -2274,11 +2274,11 @@
     },
     {
       "country": "China",
-      "title":"(CN)",
+      "title": "(CN)",
       "cities": [
         {
           "name": "Beijing",
-          "image":"beijing.png",
+          "image": "beijing.png",
           "flights": [
             {
               "id": 85,
@@ -2287,7 +2287,7 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T22:00",
               "price": 450,
-              "image":"https://www.skyscanner.net/images/airlines/small/CA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China"
             },
             {
@@ -2297,7 +2297,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T00:00",
               "price": 800,
-              "image":"https://www.skyscanner.net/images/airlines/small/MU.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/MU.png",
               "airline": "China Eastern",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
@@ -2311,7 +2311,7 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T21:00",
               "price": 460,
-              "image":"https://www.skyscanner.net/images/airlines/small/CA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China"
             },
             {
@@ -2321,7 +2321,7 @@
               "departure": "2025-08-10T17:00",
               "arrival": "2025-08-10T03:00",
               "price": 820,
-              "image":"https://www.skyscanner.net/images/airlines/small/MU.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/MU.png",
               "airline": "China Eastern",
               "roundTrip": {
                 "departure": "2025-08-20T18:00",
@@ -2335,7 +2335,7 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T23:00",
               "price": 440,
-              "image":"https://www.skyscanner.net/images/airlines/small/CA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China",
               "roundTrip": {
                 "departure": "2025-08-20T15:00",
@@ -2349,7 +2349,7 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T02:00",
               "price": 790,
-              "image":"https://www.skyscanner.net/images/airlines/small/MU.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/MU.png",
               "airline": "China Eastern"
             },
             {
@@ -2359,7 +2359,7 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T22:00",
               "price": 470,
-              "image":"https://www.skyscanner.net/images/airlines/small/CA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China"
             },
             {
@@ -2369,7 +2369,7 @@
               "departure": "2025-08-10T18:00",
               "arrival": "2025-08-10T04:00",
               "price": 810,
-              "image":"https://www.skyscanner.net/images/airlines/small/MU.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/MU.png",
               "airline": "China Eastern",
               "roundTrip": {
                 "departure": "2025-08-20T19:00",
@@ -2380,7 +2380,7 @@
         },
         {
           "name": "Shanghai",
-          "image":"shanghai.png",
+          "image": "shanghai.png",
           "flights": [
             {
               "id": 89,
@@ -2389,7 +2389,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T23:00",
               "price": 460,
-              "image":"https://www.skyscanner.net/images/airlines/small/CA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
@@ -2403,7 +2403,7 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T00:00",
               "price": 820,
-              "image":"https://www.skyscanner.net/images/airlines/small/MU.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/MU.png",
               "airline": "China Eastern"
             },
             {
@@ -2413,7 +2413,7 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T22:00",
               "price": 470,
-              "image":"https://www.skyscanner.net/images/airlines/small/CA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China"
             },
             {
@@ -2423,7 +2423,7 @@
               "departure": "2025-08-10T18:00",
               "arrival": "2025-08-10T03:00",
               "price": 830,
-              "image":"https://www.skyscanner.net/images/airlines/small/MU.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/MU.png",
               "airline": "China Eastern",
               "roundTrip": {
                 "departure": "2025-08-20T19:00",
@@ -2437,7 +2437,7 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T00:00",
               "price": 450,
-              "image":"https://www.skyscanner.net/images/airlines/small/CA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China"
             },
             {
@@ -2447,7 +2447,7 @@
               "departure": "2025-08-10T17:00",
               "arrival": "2025-08-10T02:00",
               "price": 810,
-              "image":"https://www.skyscanner.net/images/airlines/small/MU.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/MU.png",
               "airline": "China Eastern",
               "roundTrip": {
                 "departure": "2025-08-20T18:00",
@@ -2461,7 +2461,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T23:00",
               "price": 480,
-              "image":"https://www.skyscanner.net/images/airlines/small/CA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China"
             },
             {
@@ -2471,7 +2471,7 @@
               "departure": "2025-08-10T19:00",
               "arrival": "2025-08-10T04:00",
               "price": 825,
-              "image":"https://www.skyscanner.net/images/airlines/small/MU.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/MU.png",
               "airline": "China Eastern",
               "roundTrip": {
                 "departure": "2025-08-20T20:00",
@@ -2482,7 +2482,7 @@
         },
         {
           "name": "Guangzhou",
-          "image":"guangzhou.png",
+          "image": "guangzhou.png",
           "flights": [
             {
               "id": 93,
@@ -2491,7 +2491,7 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T23:00",
               "price": 440,
-              "image":"https://www.skyscanner.net/images/airlines/small/CA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China"
             },
             {
@@ -2501,7 +2501,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T00:00",
               "price": 810,
-              "image":"https://www.skyscanner.net/images/airlines/small/CZ.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/CZ.png",
               "airline": "China Southern",
               "roundTrip": {
                 "departure": "2025-08-20T15:00",
@@ -2515,7 +2515,7 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T22:00",
               "price": 450,
-              "image":"https://www.skyscanner.net/images/airlines/small/CA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China"
             },
             {
@@ -2525,7 +2525,7 @@
               "departure": "2025-08-10T17:00",
               "arrival": "2025-08-10T03:00",
               "price": 820,
-              "image":"https://www.skyscanner.net/images/airlines/small/CZ.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/CZ.png",
               "airline": "China Southern",
               "roundTrip": {
                 "departure": "2025-08-20T18:00",
@@ -2539,7 +2539,7 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T00:00",
               "price": 430,
-              "image":"https://www.skyscanner.net/images/airlines/small/CA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China",
               "roundTrip": {
                 "departure": "2025-08-20T16:00",
@@ -2553,7 +2553,7 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T01:00",
               "price": 800,
-              "image":"https://www.skyscanner.net/images/airlines/small/CZ.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/CZ.png",
               "airline": "China Southern"
             },
             {
@@ -2563,7 +2563,7 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T23:00",
               "price": 460,
-              "image":"https://www.skyscanner.net/images/airlines/small/CA.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China"
             },
             {
@@ -2573,7 +2573,7 @@
               "departure": "2025-08-10T18:00",
               "arrival": "2025-08-10T04:00",
               "price": 815,
-              "image":"https://www.skyscanner.net/images/airlines/small/CZ.png",
+              "image": "https://www.skyscanner.net/images/airlines/small/CZ.png",
               "airline": "China Southern",
               "roundTrip": {
                 "departure": "2025-08-20T19:00",
@@ -2586,5 +2586,12 @@
       "id": "2c55"
     }
   ],
-  "users": []
+  "users": [
+    {
+      "email": "nihatkerimov4785@gmail.com",
+      "password": "kerimovda",
+      "id": 1,
+      "saved" : []
+    }
+  ]
 }
