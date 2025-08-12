@@ -2590,9 +2590,1532 @@
     {
       "email": "nihatkerimov4785@gmail.com",
       "password": "kerimovda",
-      "image":"user1.png",
+      "image": "user1.png",
       "id": 1,
-      "saved" : []
+      "saved": []
+    }
+  ],
+  "cars": [
+    {
+      "city": "Almaty",
+      "country": "Kazakhstan",
+      "cars": [
+        {
+          "id": 1,
+          "transmission": [
+            "Автоматическая",
+            "Механическая"
+          ],
+          "car_name": "Toyota Camry",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 35,
+          "car_image": "https://example.com/toyota_camry.jpg",
+          "seats": 5,
+          "rental_company": "GlobalRent",
+          "company_logo": "https://example.com/globalrent_logo.png"
+        },
+        {
+          "id": 2,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Hyundai Tucson",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 42,
+          "car_image": "https://example.com/hyundai_tucson.jpg",
+          "seats": 5,
+          "rental_company": "FastRent",
+          "company_logo": "https://example.com/fastrent_logo.png"
+        },
+        {
+          "id": 3,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Lada Granta",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 18,
+          "car_image": "https://example.com/lada_granta.jpg",
+          "seats": 5,
+          "rental_company": "EcoRent",
+          "company_logo": "https://example.com/ecorent_logo.png"
+        },
+        {
+          "id": 4,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Lexus RX 350",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 80,
+          "car_image": "https://example.com/lexus_rx350.jpg",
+          "seats": 5,
+          "rental_company": "PremiumRent",
+          "company_logo": "https://example.com/premiumrent_logo.png"
+        },
+        {
+          "id": 5,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "UAZ Patriot",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 28,
+          "car_image": "https://example.com/uaz_patriot.jpg",
+          "seats": 7,
+          "rental_company": "OffroadRent",
+          "company_logo": "https://example.com/offroadrent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "Astana",
+      "country": "Kazakhstan",
+      "cars": [
+        {
+          "id": 6,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Kia K5",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 38,
+          "car_image": "https://example.com/kia_k5.jpg",
+          "seats": 5,
+          "rental_company": "CityRent",
+          "company_logo": "https://example.com/cityrent_logo.png"
+        },
+        {
+          "id": 7,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Volkswagen Polo",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 22,
+          "car_image": "https://example.com/vw_polo.jpg",
+          "seats": 5,
+          "rental_company": "BudgetRent",
+          "company_logo": "https://example.com/budgetrent_logo.png"
+        },
+        {
+          "id": 8,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Mercedes E-Class",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 95,
+          "car_image": "https://example.com/mercedes_eclass.jpg",
+          "seats": 5,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        },
+        {
+          "id": 9,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Chevrolet Niva",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 25,
+          "car_image": "https://example.com/chevrolet_niva.jpg",
+          "seats": 5,
+          "rental_company": "OffroadRent",
+          "company_logo": "https://example.com/offroadrent_logo.png"
+        },
+        {
+          "id": 10,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Toyota RAV4",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 45,
+          "car_image": "https://example.com/toyota_rav4.jpg",
+          "seats": 5,
+          "rental_company": "GlobalRent",
+          "company_logo": "https://example.com/globalrent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "Shymkent",
+      "country": "Kazakhstan",
+      "cars": [
+        {
+          "id": 11,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Hyundai Sonata",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 32,
+          "car_image": "https://example.com/hyundai_sonata.jpg",
+          "seats": 5,
+          "rental_company": "GlobalRent",
+          "company_logo": "https://example.com/globalrent_logo.png"
+        },
+        {
+          "id": 12,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Renault Logan",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 20,
+          "car_image": "https://example.com/renault_logan.jpg",
+          "seats": 5,
+          "rental_company": "EcoRent",
+          "company_logo": "https://example.com/ecorent_logo.png"
+        },
+        {
+          "id": 13,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Kia Sportage",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 40,
+          "car_image": "https://example.com/kia_sportage.jpg",
+          "seats": 5,
+          "rental_company": "FastRent",
+          "company_logo": "https://example.com/fastrent_logo.png"
+        },
+        {
+          "id": 14,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Lada Vesta",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 23,
+          "car_image": "https://example.com/lada_vesta.jpg",
+          "seats": 5,
+          "rental_company": "BudgetRent",
+          "company_logo": "https://example.com/budgetrent_logo.png"
+        },
+        {
+          "id": 15,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Toyota Land Cruiser",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 110,
+          "car_image": "https://example.com/toyota_lc.jpg",
+          "seats": 7,
+          "rental_company": "PremiumRent",
+          "company_logo": "https://example.com/premiumrent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "Istanbul",
+      "country": "Turkey",
+      "cars": [
+        {
+          "id": 16,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Fiat Egea",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 30,
+          "car_image": "https://example.com/fiat_egea.jpg",
+          "seats": 5,
+          "rental_company": "CityRent",
+          "company_logo": "https://example.com/cityrent_logo.png"
+        },
+        {
+          "id": 17,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Renault Clio",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 25,
+          "car_image": "https://example.com/renault_clio.jpg",
+          "seats": 5,
+          "rental_company": "BudgetRent",
+          "company_logo": "https://example.com/budgetrent_logo.png"
+        },
+        {
+          "id": 18,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "BMW 3 Series",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 85,
+          "car_image": "https://example.com/bmw_3series.jpg",
+          "seats": 5,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        },
+        {
+          "id": 19,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Volkswagen Golf",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 40,
+          "car_image": "https://example.com/vw_golf.jpg",
+          "seats": 5,
+          "rental_company": "GlobalRent",
+          "company_logo": "https://example.com/globalrent_logo.png"
+        },
+        {
+          "id": 20,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Dacia Duster",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 35,
+          "car_image": "https://example.com/dacia_duster.jpg",
+          "seats": 5,
+          "rental_company": "EcoRent",
+          "company_logo": "https://example.com/ecorent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "Ankara",
+      "country": "Turkey",
+      "cars": [
+        {
+          "id": 21,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Toyota Corolla",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 38,
+          "car_image": "https://example.com/toyota_corolla.jpg",
+          "seats": 5,
+          "rental_company": "GlobalRent",
+          "company_logo": "https://example.com/globalrent_logo.png"
+        },
+        {
+          "id": 22,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Opel Astra",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 28,
+          "car_image": "https://example.com/opel_astra.jpg",
+          "seats": 5,
+          "rental_company": "FastRent",
+          "company_logo": "https://example.com/fastrent_logo.png"
+        },
+        {
+          "id": 23,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Audi A4",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 75,
+          "car_image": "https://example.com/audi_a4.jpg",
+          "seats": 5,
+          "rental_company": "PremiumRent",
+          "company_logo": "https://example.com/premiumrent_logo.png"
+        },
+        {
+          "id": 24,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Ford Fiesta",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 22,
+          "car_image": "https://example.com/ford_fiesta.jpg",
+          "seats": 5,
+          "rental_company": "BudgetRent",
+          "company_logo": "https://example.com/budgetrent_logo.png"
+        },
+        {
+          "id": 25,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Volvo XC60",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 90,
+          "car_image": "https://example.com/volvo_xc60.jpg",
+          "seats": 5,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "Izmir",
+      "country": "Turkey",
+      "cars": [
+        {
+          "id": 26,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Honda Civic",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 42,
+          "car_image": "https://example.com/honda_civic.jpg",
+          "seats": 5,
+          "rental_company": "CityRent",
+          "company_logo": "https://example.com/cityrent_logo.png"
+        },
+        {
+          "id": 27,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Peugeot 208",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 26,
+          "car_image": "https://example.com/peugeot_208.jpg",
+          "seats": 5,
+          "rental_company": "EcoRent",
+          "company_logo": "https://example.com/ecorent_logo.png"
+        },
+        {
+          "id": 28,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Mercedes C-Class",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 95,
+          "car_image": "https://example.com/mercedes_cclass.jpg",
+          "seats": 5,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        },
+        {
+          "id": 29,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Skoda Octavia",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 34,
+          "car_image": "https://example.com/skoda_octavia.jpg",
+          "seats": 5,
+          "rental_company": "GlobalRent",
+          "company_logo": "https://example.com/globalrent_logo.png"
+        },
+        {
+          "id": 30,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Jeep Wrangler",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 120,
+          "car_image": "https://example.com/jeep_wrangler.jpg",
+          "seats": 5,
+          "rental_company": "OffroadRent",
+          "company_logo": "https://example.com/offroadrent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "Moscow",
+      "country": "Russia",
+      "cars": [
+        {
+          "id": 31,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Volkswagen Tiguan",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 55,
+          "car_image": "https://example.com/vw_tiguan.jpg",
+          "seats": 5,
+          "rental_company": "PremiumRent",
+          "company_logo": "https://example.com/premiumrent_logo.png"
+        },
+        {
+          "id": 32,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Lada XRAY",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 25,
+          "car_image": "https://example.com/lada_xray.jpg",
+          "seats": 5,
+          "rental_company": "BudgetRent",
+          "company_logo": "https://example.com/budgetrent_logo.png"
+        },
+        {
+          "id": 33,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "BMW X5",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 110,
+          "car_image": "https://example.com/bmw_x5.jpg",
+          "seats": 5,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        },
+        {
+          "id": 34,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Renault Duster",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 30,
+          "car_image": "https://example.com/renault_duster.jpg",
+          "seats": 5,
+          "rental_company": "EcoRent",
+          "company_logo": "https://example.com/ecorent_logo.png"
+        },
+        {
+          "id": 35,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Porsche Cayenne",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 200,
+          "car_image": "https://example.com/porsche_cayenne.jpg",
+          "seats": 5,
+          "rental_company": "PremiumRent",
+          "company_logo": "https://example.com/premiumrent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "St. Petersburg",
+      "country": "Russia",
+      "cars": [
+        {
+          "id": 36,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Toyota Prius",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 45,
+          "car_image": "https://example.com/toyota_prius.jpg",
+          "seats": 5,
+          "rental_company": "GlobalRent",
+          "company_logo": "https://example.com/globalrent_logo.png"
+        },
+        {
+          "id": 37,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Skoda Rapid",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 28,
+          "car_image": "https://example.com/skoda_rapid.jpg",
+          "seats": 5,
+          "rental_company": "BudgetRent",
+          "company_logo": "https://example.com/budgetrent_logo.png"
+        },
+        {
+          "id": 38,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Audi Q7",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 130,
+          "car_image": "https://example.com/audi_q7.jpg",
+          "seats": 7,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        },
+        {
+          "id": 39,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Kia Rio",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 32,
+          "car_image": "https://example.com/kia_rio.jpg",
+          "seats": 5,
+          "rental_company": "CityRent",
+          "company_logo": "https://example.com/cityrent_logo.png"
+        },
+        {
+          "id": 40,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Land Rover Defender",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 180,
+          "car_image": "https://example.com/lr_defender.jpg",
+          "seats": 5,
+          "rental_company": "OffroadRent",
+          "company_logo": "https://example.com/offroadrent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "Sochi",
+      "country": "Russia",
+      "cars": [
+        {
+          "id": 41,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Hyundai Creta",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 40,
+          "car_image": "https://example.com/hyundai_creta.jpg",
+          "seats": 5,
+          "rental_company": "FastRent",
+          "company_logo": "https://example.com/fastrent_logo.png"
+        },
+        {
+          "id": 42,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Lada Largus",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 22,
+          "car_image": "https://example.com/lada_largus.jpg",
+          "seats": 7,
+          "rental_company": "BudgetRent",
+          "company_logo": "https://example.com/budgetrent_logo.png"
+        },
+        {
+          "id": 43,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "BMW 5 Series",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 90,
+          "car_image": "https://example.com/bmw_5series.jpg",
+          "seats": 5,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        },
+        {
+          "id": 44,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Renault Sandero",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 25,
+          "car_image": "https://example.com/renault_sandero.jpg",
+          "seats": 5,
+          "rental_company": "EcoRent",
+          "company_logo": "https://example.com/ecorent_logo.png"
+        },
+        {
+          "id": 45,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Porsche 911",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 300,
+          "car_image": "https://example.com/porsche_911.jpg",
+          "seats": 4,
+          "rental_company": "PremiumRent",
+          "company_logo": "https://example.com/premiumrent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "Berlin",
+      "country": "Germany",
+      "cars": [
+        {
+          "id": 46,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Volkswagen Golf",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 50,
+          "car_image": "https://example.com/vw_golf.jpg",
+          "seats": 5,
+          "rental_company": "GlobalRent",
+          "company_logo": "https://example.com/globalrent_logo.png"
+        },
+        {
+          "id": 47,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Opel Corsa",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 35,
+          "car_image": "https://example.com/opel_corsa.jpg",
+          "seats": 5,
+          "rental_company": "BudgetRent",
+          "company_logo": "https://example.com/budgetrent_logo.png"
+        },
+        {
+          "id": 48,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Mercedes S-Class",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 180,
+          "car_image": "https://example.com/mercedes_sclass.jpg",
+          "seats": 5,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        },
+        {
+          "id": 49,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Ford Focus",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 40,
+          "car_image": "https://example.com/ford_focus.jpg",
+          "seats": 5,
+          "rental_company": "CityRent",
+          "company_logo": "https://example.com/cityrent_logo.png"
+        },
+        {
+          "id": 50,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Tesla Model 3",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 100,
+          "car_image": "https://example.com/tesla_model3.jpg",
+          "seats": 5,
+          "rental_company": "EcoRent",
+          "company_logo": "https://example.com/ecorent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "Munich",
+      "country": "Germany",
+      "cars": [
+        {
+          "id": 51,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Audi A6",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 85,
+          "car_image": "https://example.com/audi_a6.jpg",
+          "seats": 5,
+          "rental_company": "PremiumRent",
+          "company_logo": "https://example.com/premiumrent_logo.png"
+        },
+        {
+          "id": 52,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "BMW 1 Series",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 55,
+          "car_image": "https://example.com/bmw_1series.jpg",
+          "seats": 5,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        },
+        {
+          "id": 53,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Porsche Macan",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 150,
+          "car_image": "https://example.com/porsche_macan.jpg",
+          "seats": 5,
+          "rental_company": "PremiumRent",
+          "company_logo": "https://example.com/premiumrent_logo.png"
+        },
+        {
+          "id": 54,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Volkswagen Polo",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 38,
+          "car_image": "https://example.com/vw_polo.jpg",
+          "seats": 5,
+          "rental_company": "BudgetRent",
+          "company_logo": "https://example.com/budgetrent_logo.png"
+        },
+        {
+          "id": 55,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Tesla Model S",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 200,
+          "car_image": "https://example.com/tesla_models.jpg",
+          "seats": 5,
+          "rental_company": "EcoRent",
+          "company_logo": "https://example.com/ecorent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "Frankfurt",
+      "country": "Germany",
+      "cars": [
+        {
+          "id": 56,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Mercedes E-Class",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 90,
+          "car_image": "https://example.com/mercedes_eclass.jpg",
+          "seats": 5,
+          "rental_company": "GlobalRent",
+          "company_logo": "https://example.com/globalrent_logo.png"
+        },
+        {
+          "id": 57,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Opel Insignia",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 45,
+          "car_image": "https://example.com/opel_insignia.jpg",
+          "seats": 5,
+          "rental_company": "CityRent",
+          "company_logo": "https://example.com/cityrent_logo.png"
+        },
+        {
+          "id": 58,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Audi Q5",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 95,
+          "car_image": "https://example.com/audi_q5.jpg",
+          "seats": 5,
+          "rental_company": "PremiumRent",
+          "company_logo": "https://example.com/premiumrent_logo.png"
+        },
+        {
+          "id": 59,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Ford Mondeo",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 50,
+          "car_image": "https://example.com/ford_mondeo.jpg",
+          "seats": 5,
+          "rental_company": "BudgetRent",
+          "company_logo": "https://example.com/budgetrent_logo.png"
+        },
+        {
+          "id": 60,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Porsche Panamera",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 250,
+          "car_image": "https://example.com/porsche_panamera.jpg",
+          "seats": 4,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "Paris",
+      "country": "France",
+      "cars": [
+        {
+          "id": 61,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Peugeot 308",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 48,
+          "car_image": "https://example.com/peugeot_308.jpg",
+          "seats": 5,
+          "rental_company": "GlobalRent",
+          "company_logo": "https://example.com/globalrent_logo.png"
+        },
+        {
+          "id": 62,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Renault Megane",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 35,
+          "car_image": "https://example.com/renault_megane.jpg",
+          "seats": 5,
+          "rental_company": "EcoRent",
+          "company_logo": "https://example.com/ecorent_logo.png"
+        },
+        {
+          "id": 63,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "BMW 7 Series",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 160,
+          "car_image": "https://example.com/bmw_7series.jpg",
+          "seats": 5,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        },
+        {
+          "id": 64,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Citroen C4",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 40,
+          "car_image": "https://example.com/citroen_c4.jpg",
+          "seats": 5,
+          "rental_company": "CityRent",
+          "company_logo": "https://example.com/cityrent_logo.png"
+        },
+        {
+          "id": 65,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Tesla Model Y",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 110,
+          "car_image": "https://example.com/tesla_modely.jpg",
+          "seats": 5,
+          "rental_company": "EcoRent",
+          "company_logo": "https://example.com/ecorent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "Lyon",
+      "country": "France",
+      "cars": [
+        {
+          "id": 66,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Renault Captur",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 45,
+          "car_image": "https://example.com/renault_captur.jpg",
+          "seats": 5,
+          "rental_company": "GlobalRent",
+          "company_logo": "https://example.com/globalrent_logo.png"
+        },
+        {
+          "id": 67,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Peugeot 2008",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 38,
+          "car_image": "https://example.com/peugeot_2008.jpg",
+          "seats": 5,
+          "rental_company": "FastRent",
+          "company_logo": "https://example.com/fastrent_logo.png"
+        },
+        {
+          "id": 68,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Audi A3",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 65,
+          "car_image": "https://example.com/audi_a3.jpg",
+          "seats": 5,
+          "rental_company": "PremiumRent",
+          "company_logo": "https://example.com/premiumrent_logo.png"
+        },
+        {
+          "id": 69,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Dacia Logan",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 28,
+          "car_image": "https://example.com/dacia_logan.jpg",
+          "seats": 5,
+          "rental_company": "BudgetRent",
+          "company_logo": "https://example.com/budgetrent_logo.png"
+        },
+        {
+          "id": 70,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Volvo XC90",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 130,
+          "car_image": "https://example.com/volvo_xc90.jpg",
+          "seats": 7,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "Nice",
+      "country": "France",
+      "cars": [
+        {
+          "id": 71,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Fiat 500",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 42,
+          "car_image": "https://example.com/fiat_500.jpg",
+          "seats": 4,
+          "rental_company": "CityRent",
+          "company_logo": "https://example.com/cityrent_logo.png"
+        },
+        {
+          "id": 72,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Citroen C3",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 32,
+          "car_image": "https://example.com/citroen_c3.jpg",
+          "seats": 5,
+          "rental_company": "BudgetRent",
+          "company_logo": "https://example.com/budgetrent_logo.png"
+        },
+        {
+          "id": 73,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Mercedes GLE",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 140,
+          "car_image": "https://example.com/mercedes_gle.jpg",
+          "seats": 5,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        },
+        {
+          "id": 74,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Peugeot 3008",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 55,
+          "car_image": "https://example.com/peugeot_3008.jpg",
+          "seats": 5,
+          "rental_company": "GlobalRent",
+          "company_logo": "https://example.com/globalrent_logo.png"
+        },
+        {
+          "id": 75,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Tesla Model X",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 180,
+          "car_image": "https://example.com/tesla_modelx.jpg",
+          "seats": 7,
+          "rental_company": "EcoRent",
+          "company_logo": "https://example.com/ecorent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "country": "UK",
+      "cars": [
+        {
+          "id": 76,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Ford Fiesta",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 50,
+          "car_image": "https://example.com/ford_fiesta.jpg",
+          "seats": 5,
+          "rental_company": "GlobalRent",
+          "company_logo": "https://example.com/globalrent_logo.png"
+        },
+        {
+          "id": 77,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Vauxhall Corsa",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 40,
+          "car_image": "https://example.com/vauxhall_corsa.jpg",
+          "seats": 5,
+          "rental_company": "BudgetRent",
+          "company_logo": "https://example.com/budgetrent_logo.png"
+        },
+        {
+          "id": 78,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Range Rover Evoque",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 120,
+          "car_image": "https://example.com/rangerover_evoque.jpg",
+          "seats": 5,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        },
+        {
+          "id": 79,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Mini Cooper",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 65,
+          "car_image": "https://example.com/mini_cooper.jpg",
+          "seats": 4,
+          "rental_company": "CityRent",
+          "company_logo": "https://example.com/cityrent_logo.png"
+        },
+        {
+          "id": 80,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Jaguar F-Pace",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 150,
+          "car_image": "https://example.com/jaguar_fpace.jpg",
+          "seats": 5,
+          "rental_company": "PremiumRent",
+          "company_logo": "https://example.com/premiumrent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "Manchester",
+      "country": "UK",
+      "cars": [
+        {
+          "id": 81,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Volkswagen Golf",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 48,
+          "car_image": "https://example.com/vw_golf.jpg",
+          "seats": 5,
+          "rental_company": "GlobalRent",
+          "company_logo": "https://example.com/globalrent_logo.png"
+        },
+        {
+          "id": 82,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Ford Focus",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 42,
+          "car_image": "https://example.com/ford_focus.jpg",
+          "seats": 5,
+          "rental_company": "FastRent",
+          "company_logo": "https://example.com/fastrent_logo.png"
+        },
+        {
+          "id": 83,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Audi A5",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 85,
+          "car_image": "https://example.com/audi_a5.jpg",
+          "seats": 5,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        },
+        {
+          "id": 84,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Skoda Fabia",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 35,
+          "car_image": "https://example.com/skoda_fabia.jpg",
+          "seats": 5,
+          "rental_company": "BudgetRent",
+          "company_logo": "https://example.com/budgetrent_logo.png"
+        },
+        {
+          "id": 85,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Tesla Model 3",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 95,
+          "car_image": "https://example.com/tesla_model3.jpg",
+          "seats": 5,
+          "rental_company": "EcoRent",
+          "company_logo": "https://example.com/ecorent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "country": "UK",
+      "cars": [
+        {
+          "id": 86,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Toyota Yaris",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 40,
+          "car_image": "https://example.com/toyota_yaris.jpg",
+          "seats": 5,
+          "rental_company": "CityRent",
+          "company_logo": "https://example.com/cityrent_logo.png"
+        },
+        {
+          "id": 87,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Vauxhall Astra",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 38,
+          "car_image": "https://example.com/vauxhall_astra.jpg",
+          "seats": 5,
+          "rental_company": "BudgetRent",
+          "company_logo": "https://example.com/budgetrent_logo.png"
+        },
+        {
+          "id": 88,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "BMW X3",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 90,
+          "car_image": "https://example.com/bmw_x3.jpg",
+          "seats": 5,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        },
+        {
+          "id": 89,
+          "transmission": [
+            "Механическая"
+          ],
+          "car_name": "Renault Kadjar",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 45,
+          "car_image": "https://example.com/renault_kadjar.jpg",
+          "seats": 5,
+          "rental_company": "GlobalRent",
+          "company_logo": "https://example.com/globalrent_logo.png"
+        },
+        {
+          "id": 90,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Land Rover Discovery",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 130,
+          "car_image": "https://example.com/lr_discovery.jpg",
+          "seats": 7,
+          "rental_company": "OffroadRent",
+          "company_logo": "https://example.com/offroadrent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "New York",
+      "country": "USA",
+      "cars": [
+        {
+          "id": 91,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Ford Mustang",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 70,
+          "car_image": "https://example.com/ford_mustang.jpg",
+          "seats": 4,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        },
+        {
+          "id": 92,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Chevrolet Tahoe",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 100,
+          "car_image": "https://example.com/chevrolet_tahoe.jpg",
+          "seats": 8,
+          "rental_company": "OffroadRent",
+          "company_logo": "https://example.com/offroadrent_logo.png"
+        },
+        {
+          "id": 93,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Tesla Model 3",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 90,
+          "car_image": "https://example.com/tesla_model3.jpg",
+          "seats": 5,
+          "rental_company": "EcoRent",
+          "company_logo": "https://example.com/ecorent_logo.png"
+        },
+        {
+          "id": 94,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Jeep Grand Cherokee",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 85,
+          "car_image": "https://example.com/jeep_cherokee.jpg",
+          "seats": 5,
+          "rental_company": "PremiumRent",
+          "company_logo": "https://example.com/premiumrent_logo.png"
+        },
+        {
+          "id": 95,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Cadillac Escalade",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 150,
+          "car_image": "https://example.com/cadillac_escalade.jpg",
+          "seats": 7,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        }
+      ]
+    },
+    {
+      "city": "Los Angeles",
+      "country": "USA",
+      "cars": [
+        {
+          "id": 96,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Tesla Model S",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 120,
+          "car_image": "https://example.com/tesla_models.jpg",
+          "seats": 5,
+          "rental_company": "PremiumRent",
+          "company_logo": "https://example.com/premiumrent_logo.png"
+        },
+        {
+          "id": 97,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Ford F-150",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 80,
+          "car_image": "https://example.com/ford_f150.jpg",
+          "seats": 5,
+          "rental_company": "OffroadRent",
+          "company_logo": "https://example.com/offroadrent_logo.png"
+        },
+        {
+          "id": 98,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Chevrolet Camaro",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 110,
+          "car_image": "https://example.com/chevrolet_camaro.jpg",
+          "seats": 4,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        },
+        {
+          "id": 99,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Toyota Prius",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 50,
+          "car_image": "https://example.com/toyota_prius.jpg",
+          "seats": 5,
+          "rental_company": "EcoRent",
+          "company_logo": "https://example.com/ecorent_logo.png"
+        },
+        {
+          "id": 100,
+          "transmission": [
+            "Автоматическая"
+          ],
+          "car_name": "Mercedes G-Class",
+          "rental_time": "2025-08-10T10:00",
+          "return_time": "2025-08-10T17:00",
+          "price_per_day": 300,
+          "car_image": "https://example.com/mercedes_gclass.jpg",
+          "seats": 5,
+          "rental_company": "LuxuryRent",
+          "company_logo": "https://example.com/luxuryrent_logo.png"
+        }
+      ]
     }
   ]
 }
