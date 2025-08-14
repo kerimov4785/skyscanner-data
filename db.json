@@ -2598,6 +2598,8 @@
   "cars": [
     {
       "city": "Almaty",
+      "cityImage":"almaty.png",
+      "popular":true,
       "country": "Kazakhstan",
       "cars": [
         {
@@ -2610,10 +2612,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 35,
-          "car_image": "https://example.com/toyota_camry.jpg",
+          "car_image": "toyota_camry.jpg",
           "seats": 5,
           "rental_company": "GlobalRent",
-          "company_logo": "https://example.com/globalrent_logo.png"
+          "company_logo": "globalrent_logo.png"
         },
         {
           "id": 2,
@@ -2624,10 +2626,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 42,
-          "car_image": "https://example.com/hyundai_tucson.jpg",
+          "car_image": "hyundai_tucson.jpg",
           "seats": 5,
           "rental_company": "FastRent",
-          "company_logo": "https://example.com/fastrent_logo.png"
+          "company_logo": "fastrent_logo.png"
         },
         {
           "id": 3,
@@ -2638,10 +2640,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 18,
-          "car_image": "https://example.com/lada_granta.jpg",
+          "car_image": "lada_granta.jpg",
           "seats": 5,
           "rental_company": "EcoRent",
-          "company_logo": "https://example.com/ecorent_logo.png"
+          "company_logo": "ecorent_logo.png"
         },
         {
           "id": 4,
@@ -2652,10 +2654,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 80,
-          "car_image": "https://example.com/lexus_rx350.jpg",
+          "car_image": "lexus_rx350.jpg",
           "seats": 5,
           "rental_company": "PremiumRent",
-          "company_logo": "https://example.com/premiumrent_logo.png"
+          "company_logo": "premiumrent_logo.png"
         },
         {
           "id": 5,
@@ -2666,15 +2668,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 28,
-          "car_image": "https://example.com/uaz_patriot.jpg",
+          "car_image": "uaz_patriot.jpg",
           "seats": 7,
           "rental_company": "OffroadRent",
-          "company_logo": "https://example.com/offroadrent_logo.png"
+          "company_logo": "offroadrent_logo.png"
         }
       ]
     },
     {
       "city": "Astana",
+      "cityImage":"astana.png",
+      "popular":false,
       "country": "Kazakhstan",
       "cars": [
         {
@@ -2686,10 +2690,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 38,
-          "car_image": "https://example.com/kia_k5.jpg",
+          "car_image": "kia_k5.jpg",
           "seats": 5,
           "rental_company": "CityRent",
-          "company_logo": "https://example.com/cityrent_logo.png"
+          "company_logo": "cityrent_logo.png"
         },
         {
           "id": 7,
@@ -2700,10 +2704,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 22,
-          "car_image": "https://example.com/vw_polo.jpg",
+          "car_image": "vw_polo.jpg",
           "seats": 5,
           "rental_company": "BudgetRent",
-          "company_logo": "https://example.com/budgetrent_logo.png"
+          "company_logo": "budgetrent_logo.png"
         },
         {
           "id": 8,
@@ -2714,10 +2718,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 95,
-          "car_image": "https://example.com/mercedes_eclass.jpg",
+          "car_image": "mercedes_eclass.jpg",
           "seats": 5,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         },
         {
           "id": 9,
@@ -2728,10 +2732,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 25,
-          "car_image": "https://example.com/chevrolet_niva.jpg",
+          "car_image": "chevrolet_niva.jpg",
           "seats": 5,
           "rental_company": "OffroadRent",
-          "company_logo": "https://example.com/offroadrent_logo.png"
+          "company_logo": "offroadrent_logo.png"
         },
         {
           "id": 10,
@@ -2742,15 +2746,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 45,
-          "car_image": "https://example.com/toyota_rav4.jpg",
+          "car_image": "toyota_rav4.jpg",
           "seats": 5,
           "rental_company": "GlobalRent",
-          "company_logo": "https://example.com/globalrent_logo.png"
+          "company_logo": "globalrent_logo.png"
         }
       ]
     },
     {
       "city": "Shymkent",
+      "cityImage":"shymkent.png",
+      "popular":false,
       "country": "Kazakhstan",
       "cars": [
         {
@@ -2762,10 +2768,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 32,
-          "car_image": "https://example.com/hyundai_sonata.jpg",
+          "car_image": "hyundai_sonata.jpg",
           "seats": 5,
           "rental_company": "GlobalRent",
-          "company_logo": "https://example.com/globalrent_logo.png"
+          "company_logo": "globalrent_logo.png"
         },
         {
           "id": 12,
@@ -2776,10 +2782,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 20,
-          "car_image": "https://example.com/renault_logan.jpg",
+          "car_image": "renault_logan.jpg",
           "seats": 5,
           "rental_company": "EcoRent",
-          "company_logo": "https://example.com/ecorent_logo.png"
+          "company_logo": "ecorent_logo.png"
         },
         {
           "id": 13,
@@ -2790,10 +2796,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 40,
-          "car_image": "https://example.com/kia_sportage.jpg",
+          "car_image": "kia_sportage.jpg",
           "seats": 5,
           "rental_company": "FastRent",
-          "company_logo": "https://example.com/fastrent_logo.png"
+          "company_logo": "fastrent_logo.png"
         },
         {
           "id": 14,
@@ -2804,10 +2810,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 23,
-          "car_image": "https://example.com/lada_vesta.jpg",
+          "car_image": "lada_vesta.jpg",
           "seats": 5,
           "rental_company": "BudgetRent",
-          "company_logo": "https://example.com/budgetrent_logo.png"
+          "company_logo": "budgetrent_logo.png"
         },
         {
           "id": 15,
@@ -2818,15 +2824,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 110,
-          "car_image": "https://example.com/toyota_lc.jpg",
+          "car_image": "toyota_lc.jpg",
           "seats": 7,
           "rental_company": "PremiumRent",
-          "company_logo": "https://example.com/premiumrent_logo.png"
+          "company_logo": "premiumrent_logo.png"
         }
       ]
     },
     {
       "city": "Istanbul",
+      "cityImage":"istanbul.png",
+      "popular":true,
       "country": "Turkey",
       "cars": [
         {
@@ -2838,10 +2846,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 30,
-          "car_image": "https://example.com/fiat_egea.jpg",
+          "car_image": "fiat_egea.jpg",
           "seats": 5,
           "rental_company": "CityRent",
-          "company_logo": "https://example.com/cityrent_logo.png"
+          "company_logo": "cityrent_logo.png"
         },
         {
           "id": 17,
@@ -2852,10 +2860,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 25,
-          "car_image": "https://example.com/renault_clio.jpg",
+          "car_image": "renault_clio.jpg",
           "seats": 5,
           "rental_company": "BudgetRent",
-          "company_logo": "https://example.com/budgetrent_logo.png"
+          "company_logo": "budgetrent_logo.png"
         },
         {
           "id": 18,
@@ -2866,10 +2874,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 85,
-          "car_image": "https://example.com/bmw_3series.jpg",
+          "car_image": "bmw_3series.jpg",
           "seats": 5,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         },
         {
           "id": 19,
@@ -2880,10 +2888,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 40,
-          "car_image": "https://example.com/vw_golf.jpg",
+          "car_image": "vw_golf.jpg",
           "seats": 5,
           "rental_company": "GlobalRent",
-          "company_logo": "https://example.com/globalrent_logo.png"
+          "company_logo": "globalrent_logo.png"
         },
         {
           "id": 20,
@@ -2894,15 +2902,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 35,
-          "car_image": "https://example.com/dacia_duster.jpg",
+          "car_image": "dacia_duster.jpg",
           "seats": 5,
           "rental_company": "EcoRent",
-          "company_logo": "https://example.com/ecorent_logo.png"
+          "company_logo": "ecorent_logo.png"
         }
       ]
     },
     {
       "city": "Ankara",
+      "cityImage":"ankara.png",
+      "popular":true,
       "country": "Turkey",
       "cars": [
         {
@@ -2914,10 +2924,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 38,
-          "car_image": "https://example.com/toyota_corolla.jpg",
+          "car_image": "toyota_corolla.jpg",
           "seats": 5,
           "rental_company": "GlobalRent",
-          "company_logo": "https://example.com/globalrent_logo.png"
+          "company_logo": "globalrent_logo.png"
         },
         {
           "id": 22,
@@ -2928,10 +2938,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 28,
-          "car_image": "https://example.com/opel_astra.jpg",
+          "car_image": "opel_astra.jpg",
           "seats": 5,
           "rental_company": "FastRent",
-          "company_logo": "https://example.com/fastrent_logo.png"
+          "company_logo": "fastrent_logo.png"
         },
         {
           "id": 23,
@@ -2942,10 +2952,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 75,
-          "car_image": "https://example.com/audi_a4.jpg",
+          "car_image": "audi_a4.jpg",
           "seats": 5,
           "rental_company": "PremiumRent",
-          "company_logo": "https://example.com/premiumrent_logo.png"
+          "company_logo": "premiumrent_logo.png"
         },
         {
           "id": 24,
@@ -2956,10 +2966,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 22,
-          "car_image": "https://example.com/ford_fiesta.jpg",
+          "car_image": "ford_fiesta.jpg",
           "seats": 5,
           "rental_company": "BudgetRent",
-          "company_logo": "https://example.com/budgetrent_logo.png"
+          "company_logo": "budgetrent_logo.png"
         },
         {
           "id": 25,
@@ -2970,15 +2980,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 90,
-          "car_image": "https://example.com/volvo_xc60.jpg",
+          "car_image": "volvo_xc60.jpg",
           "seats": 5,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         }
       ]
     },
     {
       "city": "Izmir",
+      "cityImage":"izmir.png",
+      "popular":false,
       "country": "Turkey",
       "cars": [
         {
@@ -2990,10 +3002,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 42,
-          "car_image": "https://example.com/honda_civic.jpg",
+          "car_image": "honda_civic.jpg",
           "seats": 5,
           "rental_company": "CityRent",
-          "company_logo": "https://example.com/cityrent_logo.png"
+          "company_logo": "cityrent_logo.png"
         },
         {
           "id": 27,
@@ -3004,10 +3016,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 26,
-          "car_image": "https://example.com/peugeot_208.jpg",
+          "car_image": "peugeot_208.jpg",
           "seats": 5,
           "rental_company": "EcoRent",
-          "company_logo": "https://example.com/ecorent_logo.png"
+          "company_logo": "ecorent_logo.png"
         },
         {
           "id": 28,
@@ -3018,10 +3030,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 95,
-          "car_image": "https://example.com/mercedes_cclass.jpg",
+          "car_image": "mercedes_cclass.jpg",
           "seats": 5,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         },
         {
           "id": 29,
@@ -3032,10 +3044,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 34,
-          "car_image": "https://example.com/skoda_octavia.jpg",
+          "car_image": "skoda_octavia.jpg",
           "seats": 5,
           "rental_company": "GlobalRent",
-          "company_logo": "https://example.com/globalrent_logo.png"
+          "company_logo": "globalrent_logo.png"
         },
         {
           "id": 30,
@@ -3046,15 +3058,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 120,
-          "car_image": "https://example.com/jeep_wrangler.jpg",
+          "car_image": "jeep_wrangler.jpg",
           "seats": 5,
           "rental_company": "OffroadRent",
-          "company_logo": "https://example.com/offroadrent_logo.png"
+          "company_logo": "offroadrent_logo.png"
         }
       ]
     },
     {
       "city": "Moscow",
+      "cityImage":"moscow.png",
+      "popular":true,
       "country": "Russia",
       "cars": [
         {
@@ -3066,10 +3080,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 55,
-          "car_image": "https://example.com/vw_tiguan.jpg",
+          "car_image": "vw_tiguan.jpg",
           "seats": 5,
           "rental_company": "PremiumRent",
-          "company_logo": "https://example.com/premiumrent_logo.png"
+          "company_logo": "premiumrent_logo.png"
         },
         {
           "id": 32,
@@ -3080,10 +3094,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 25,
-          "car_image": "https://example.com/lada_xray.jpg",
+          "car_image": "lada_xray.jpg",
           "seats": 5,
           "rental_company": "BudgetRent",
-          "company_logo": "https://example.com/budgetrent_logo.png"
+          "company_logo": "budgetrent_logo.png"
         },
         {
           "id": 33,
@@ -3094,10 +3108,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 110,
-          "car_image": "https://example.com/bmw_x5.jpg",
+          "car_image": "bmw_x5.jpg",
           "seats": 5,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         },
         {
           "id": 34,
@@ -3108,10 +3122,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 30,
-          "car_image": "https://example.com/renault_duster.jpg",
+          "car_image": "renault_duster.jpg",
           "seats": 5,
           "rental_company": "EcoRent",
-          "company_logo": "https://example.com/ecorent_logo.png"
+          "company_logo": "ecorent_logo.png"
         },
         {
           "id": 35,
@@ -3122,15 +3136,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 200,
-          "car_image": "https://example.com/porsche_cayenne.jpg",
+          "car_image": "porsche_cayenne.jpg",
           "seats": 5,
           "rental_company": "PremiumRent",
-          "company_logo": "https://example.com/premiumrent_logo.png"
+          "company_logo": "premiumrent_logo.png"
         }
       ]
     },
     {
       "city": "St. Petersburg",
+      "cityImage":"petersburg.png",
+      "popular":false,
       "country": "Russia",
       "cars": [
         {
@@ -3142,10 +3158,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 45,
-          "car_image": "https://example.com/toyota_prius.jpg",
+          "car_image": "toyota_prius.jpg",
           "seats": 5,
           "rental_company": "GlobalRent",
-          "company_logo": "https://example.com/globalrent_logo.png"
+          "company_logo": "globalrent_logo.png"
         },
         {
           "id": 37,
@@ -3156,10 +3172,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 28,
-          "car_image": "https://example.com/skoda_rapid.jpg",
+          "car_image": "skoda_rapid.jpg",
           "seats": 5,
           "rental_company": "BudgetRent",
-          "company_logo": "https://example.com/budgetrent_logo.png"
+          "company_logo": "budgetrent_logo.png"
         },
         {
           "id": 38,
@@ -3170,10 +3186,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 130,
-          "car_image": "https://example.com/audi_q7.jpg",
+          "car_image": "audi_q7.jpg",
           "seats": 7,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         },
         {
           "id": 39,
@@ -3184,10 +3200,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 32,
-          "car_image": "https://example.com/kia_rio.jpg",
+          "car_image": "kia_rio.jpg",
           "seats": 5,
           "rental_company": "CityRent",
-          "company_logo": "https://example.com/cityrent_logo.png"
+          "company_logo": "cityrent_logo.png"
         },
         {
           "id": 40,
@@ -3198,15 +3214,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 180,
-          "car_image": "https://example.com/lr_defender.jpg",
+          "car_image": "lr_defender.jpg",
           "seats": 5,
           "rental_company": "OffroadRent",
-          "company_logo": "https://example.com/offroadrent_logo.png"
+          "company_logo": "offroadrent_logo.png"
         }
       ]
     },
     {
       "city": "Sochi",
+      "cityImage":"sochi.png",
+      "popular":true,
       "country": "Russia",
       "cars": [
         {
@@ -3218,10 +3236,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 40,
-          "car_image": "https://example.com/hyundai_creta.jpg",
+          "car_image": "hyundai_creta.jpg",
           "seats": 5,
           "rental_company": "FastRent",
-          "company_logo": "https://example.com/fastrent_logo.png"
+          "company_logo": "fastrent_logo.png"
         },
         {
           "id": 42,
@@ -3232,10 +3250,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 22,
-          "car_image": "https://example.com/lada_largus.jpg",
+          "car_image": "lada_largus.jpg",
           "seats": 7,
           "rental_company": "BudgetRent",
-          "company_logo": "https://example.com/budgetrent_logo.png"
+          "company_logo": "budgetrent_logo.png"
         },
         {
           "id": 43,
@@ -3246,10 +3264,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 90,
-          "car_image": "https://example.com/bmw_5series.jpg",
+          "car_image": "bmw_5series.jpg",
           "seats": 5,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         },
         {
           "id": 44,
@@ -3260,10 +3278,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 25,
-          "car_image": "https://example.com/renault_sandero.jpg",
+          "car_image": "renault_sandero.jpg",
           "seats": 5,
           "rental_company": "EcoRent",
-          "company_logo": "https://example.com/ecorent_logo.png"
+          "company_logo": "ecorent_logo.png"
         },
         {
           "id": 45,
@@ -3274,15 +3292,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 300,
-          "car_image": "https://example.com/porsche_911.jpg",
+          "car_image": "porsche_911.jpg",
           "seats": 4,
           "rental_company": "PremiumRent",
-          "company_logo": "https://example.com/premiumrent_logo.png"
+          "company_logo": "premiumrent_logo.png"
         }
       ]
     },
     {
       "city": "Berlin",
+      "cityImage":"berlin.png",
+      "popular":false,
       "country": "Germany",
       "cars": [
         {
@@ -3294,10 +3314,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 50,
-          "car_image": "https://example.com/vw_golf.jpg",
+          "car_image": "vw_golf.jpg",
           "seats": 5,
           "rental_company": "GlobalRent",
-          "company_logo": "https://example.com/globalrent_logo.png"
+          "company_logo": "globalrent_logo.png"
         },
         {
           "id": 47,
@@ -3308,10 +3328,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 35,
-          "car_image": "https://example.com/opel_corsa.jpg",
+          "car_image": "opel_corsa.jpg",
           "seats": 5,
           "rental_company": "BudgetRent",
-          "company_logo": "https://example.com/budgetrent_logo.png"
+          "company_logo": "budgetrent_logo.png"
         },
         {
           "id": 48,
@@ -3322,10 +3342,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 180,
-          "car_image": "https://example.com/mercedes_sclass.jpg",
+          "car_image": "mercedes_sclass.jpg",
           "seats": 5,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         },
         {
           "id": 49,
@@ -3336,10 +3356,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 40,
-          "car_image": "https://example.com/ford_focus.jpg",
+          "car_image": "ford_focus.jpg",
           "seats": 5,
           "rental_company": "CityRent",
-          "company_logo": "https://example.com/cityrent_logo.png"
+          "company_logo": "cityrent_logo.png"
         },
         {
           "id": 50,
@@ -3350,15 +3370,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 100,
-          "car_image": "https://example.com/tesla_model3.jpg",
+          "car_image": "tesla_model3.jpg",
           "seats": 5,
           "rental_company": "EcoRent",
-          "company_logo": "https://example.com/ecorent_logo.png"
+          "company_logo": "ecorent_logo.png"
         }
       ]
     },
     {
       "city": "Munich",
+      "cityImage":"munish.png",
+      "popular":false,
       "country": "Germany",
       "cars": [
         {
@@ -3370,10 +3392,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 85,
-          "car_image": "https://example.com/audi_a6.jpg",
+          "car_image": "audi_a6.jpg",
           "seats": 5,
           "rental_company": "PremiumRent",
-          "company_logo": "https://example.com/premiumrent_logo.png"
+          "company_logo": "premiumrent_logo.png"
         },
         {
           "id": 52,
@@ -3384,10 +3406,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 55,
-          "car_image": "https://example.com/bmw_1series.jpg",
+          "car_image": "bmw_1series.jpg",
           "seats": 5,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         },
         {
           "id": 53,
@@ -3398,10 +3420,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 150,
-          "car_image": "https://example.com/porsche_macan.jpg",
+          "car_image": "porsche_macan.jpg",
           "seats": 5,
           "rental_company": "PremiumRent",
-          "company_logo": "https://example.com/premiumrent_logo.png"
+          "company_logo": "premiumrent_logo.png"
         },
         {
           "id": 54,
@@ -3412,10 +3434,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 38,
-          "car_image": "https://example.com/vw_polo.jpg",
+          "car_image": "vw_polo.jpg",
           "seats": 5,
           "rental_company": "BudgetRent",
-          "company_logo": "https://example.com/budgetrent_logo.png"
+          "company_logo": "budgetrent_logo.png"
         },
         {
           "id": 55,
@@ -3426,15 +3448,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 200,
-          "car_image": "https://example.com/tesla_models.jpg",
+          "car_image": "tesla_models.jpg",
           "seats": 5,
           "rental_company": "EcoRent",
-          "company_logo": "https://example.com/ecorent_logo.png"
+          "company_logo": "ecorent_logo.png"
         }
       ]
     },
     {
       "city": "Frankfurt",
+      "cityImage":"frankfurt.png",
+      "popular":true,
       "country": "Germany",
       "cars": [
         {
@@ -3446,10 +3470,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 90,
-          "car_image": "https://example.com/mercedes_eclass.jpg",
+          "car_image": "mercedes_eclass.jpg",
           "seats": 5,
           "rental_company": "GlobalRent",
-          "company_logo": "https://example.com/globalrent_logo.png"
+          "company_logo": "globalrent_logo.png"
         },
         {
           "id": 57,
@@ -3460,10 +3484,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 45,
-          "car_image": "https://example.com/opel_insignia.jpg",
+          "car_image": "opel_insignia.jpg",
           "seats": 5,
           "rental_company": "CityRent",
-          "company_logo": "https://example.com/cityrent_logo.png"
+          "company_logo": "cityrent_logo.png"
         },
         {
           "id": 58,
@@ -3474,10 +3498,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 95,
-          "car_image": "https://example.com/audi_q5.jpg",
+          "car_image": "audi_q5.jpg",
           "seats": 5,
           "rental_company": "PremiumRent",
-          "company_logo": "https://example.com/premiumrent_logo.png"
+          "company_logo": "premiumrent_logo.png"
         },
         {
           "id": 59,
@@ -3488,10 +3512,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 50,
-          "car_image": "https://example.com/ford_mondeo.jpg",
+          "car_image": "ford_mondeo.jpg",
           "seats": 5,
           "rental_company": "BudgetRent",
-          "company_logo": "https://example.com/budgetrent_logo.png"
+          "company_logo": "budgetrent_logo.png"
         },
         {
           "id": 60,
@@ -3502,15 +3526,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 250,
-          "car_image": "https://example.com/porsche_panamera.jpg",
+          "car_image": "porsche_panamera.jpg",
           "seats": 4,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         }
       ]
     },
     {
       "city": "Paris",
+      "cityImage":"paris.png",
+      "popular":true,
       "country": "France",
       "cars": [
         {
@@ -3522,10 +3548,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 48,
-          "car_image": "https://example.com/peugeot_308.jpg",
+          "car_image": "peugeot_308.jpg",
           "seats": 5,
           "rental_company": "GlobalRent",
-          "company_logo": "https://example.com/globalrent_logo.png"
+          "company_logo": "globalrent_logo.png"
         },
         {
           "id": 62,
@@ -3536,10 +3562,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 35,
-          "car_image": "https://example.com/renault_megane.jpg",
+          "car_image": "renault_megane.jpg",
           "seats": 5,
           "rental_company": "EcoRent",
-          "company_logo": "https://example.com/ecorent_logo.png"
+          "company_logo": "ecorent_logo.png"
         },
         {
           "id": 63,
@@ -3550,10 +3576,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 160,
-          "car_image": "https://example.com/bmw_7series.jpg",
+          "car_image": "bmw_7series.jpg",
           "seats": 5,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         },
         {
           "id": 64,
@@ -3564,10 +3590,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 40,
-          "car_image": "https://example.com/citroen_c4.jpg",
+          "car_image": "citroen_c4.jpg",
           "seats": 5,
           "rental_company": "CityRent",
-          "company_logo": "https://example.com/cityrent_logo.png"
+          "company_logo": "cityrent_logo.png"
         },
         {
           "id": 65,
@@ -3578,15 +3604,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 110,
-          "car_image": "https://example.com/tesla_modely.jpg",
+          "car_image": "tesla_modely.jpg",
           "seats": 5,
           "rental_company": "EcoRent",
-          "company_logo": "https://example.com/ecorent_logo.png"
+          "company_logo": "ecorent_logo.png"
         }
       ]
     },
     {
       "city": "Lyon",
+      "cityImage":"lyon.png",
+      "popular":false,
       "country": "France",
       "cars": [
         {
@@ -3598,10 +3626,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 45,
-          "car_image": "https://example.com/renault_captur.jpg",
+          "car_image": "renault_captur.jpg",
           "seats": 5,
           "rental_company": "GlobalRent",
-          "company_logo": "https://example.com/globalrent_logo.png"
+          "company_logo": "globalrent_logo.png"
         },
         {
           "id": 67,
@@ -3612,10 +3640,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 38,
-          "car_image": "https://example.com/peugeot_2008.jpg",
+          "car_image": "peugeot_2008.jpg",
           "seats": 5,
           "rental_company": "FastRent",
-          "company_logo": "https://example.com/fastrent_logo.png"
+          "company_logo": "fastrent_logo.png"
         },
         {
           "id": 68,
@@ -3626,10 +3654,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 65,
-          "car_image": "https://example.com/audi_a3.jpg",
+          "car_image": "audi_a3.jpg",
           "seats": 5,
           "rental_company": "PremiumRent",
-          "company_logo": "https://example.com/premiumrent_logo.png"
+          "company_logo": "premiumrent_logo.png"
         },
         {
           "id": 69,
@@ -3640,10 +3668,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 28,
-          "car_image": "https://example.com/dacia_logan.jpg",
+          "car_image": "dacia_logan.jpg",
           "seats": 5,
           "rental_company": "BudgetRent",
-          "company_logo": "https://example.com/budgetrent_logo.png"
+          "company_logo": "budgetrent_logo.png"
         },
         {
           "id": 70,
@@ -3654,15 +3682,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 130,
-          "car_image": "https://example.com/volvo_xc90.jpg",
+          "car_image": "volvo_xc90.jpg",
           "seats": 7,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         }
       ]
     },
     {
       "city": "Nice",
+      "cityImage":"nice.png",
+      "popular":true,
       "country": "France",
       "cars": [
         {
@@ -3674,10 +3704,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 42,
-          "car_image": "https://example.com/fiat_500.jpg",
+          "car_image": "fiat_500.jpg",
           "seats": 4,
           "rental_company": "CityRent",
-          "company_logo": "https://example.com/cityrent_logo.png"
+          "company_logo": "cityrent_logo.png"
         },
         {
           "id": 72,
@@ -3688,10 +3718,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 32,
-          "car_image": "https://example.com/citroen_c3.jpg",
+          "car_image": "citroen_c3.jpg",
           "seats": 5,
           "rental_company": "BudgetRent",
-          "company_logo": "https://example.com/budgetrent_logo.png"
+          "company_logo": "budgetrent_logo.png"
         },
         {
           "id": 73,
@@ -3702,10 +3732,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 140,
-          "car_image": "https://example.com/mercedes_gle.jpg",
+          "car_image": "mercedes_gle.jpg",
           "seats": 5,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         },
         {
           "id": 74,
@@ -3716,10 +3746,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 55,
-          "car_image": "https://example.com/peugeot_3008.jpg",
+          "car_image": "peugeot_3008.jpg",
           "seats": 5,
           "rental_company": "GlobalRent",
-          "company_logo": "https://example.com/globalrent_logo.png"
+          "company_logo": "globalrent_logo.png"
         },
         {
           "id": 75,
@@ -3730,15 +3760,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 180,
-          "car_image": "https://example.com/tesla_modelx.jpg",
+          "car_image": "tesla_modelx.jpg",
           "seats": 7,
           "rental_company": "EcoRent",
-          "company_logo": "https://example.com/ecorent_logo.png"
+          "company_logo": "ecorent_logo.png"
         }
       ]
     },
     {
       "city": "London",
+      "cityImage":"london.png",
+      "popular":true,
       "country": "UK",
       "cars": [
         {
@@ -3750,10 +3782,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 50,
-          "car_image": "https://example.com/ford_fiesta.jpg",
+          "car_image": "ford_fiesta.jpg",
           "seats": 5,
           "rental_company": "GlobalRent",
-          "company_logo": "https://example.com/globalrent_logo.png"
+          "company_logo": "globalrent_logo.png"
         },
         {
           "id": 77,
@@ -3764,10 +3796,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 40,
-          "car_image": "https://example.com/vauxhall_corsa.jpg",
+          "car_image": "vauxhall_corsa.jpg",
           "seats": 5,
           "rental_company": "BudgetRent",
-          "company_logo": "https://example.com/budgetrent_logo.png"
+          "company_logo": "budgetrent_logo.png"
         },
         {
           "id": 78,
@@ -3778,10 +3810,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 120,
-          "car_image": "https://example.com/rangerover_evoque.jpg",
+          "car_image": "rangerover_evoque.jpg",
           "seats": 5,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         },
         {
           "id": 79,
@@ -3792,10 +3824,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 65,
-          "car_image": "https://example.com/mini_cooper.jpg",
+          "car_image": "mini_cooper.jpg",
           "seats": 4,
           "rental_company": "CityRent",
-          "company_logo": "https://example.com/cityrent_logo.png"
+          "company_logo": "cityrent_logo.png"
         },
         {
           "id": 80,
@@ -3806,15 +3838,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 150,
-          "car_image": "https://example.com/jaguar_fpace.jpg",
+          "car_image": "jaguar_fpace.jpg",
           "seats": 5,
           "rental_company": "PremiumRent",
-          "company_logo": "https://example.com/premiumrent_logo.png"
+          "company_logo": "premiumrent_logo.png"
         }
       ]
     },
     {
       "city": "Manchester",
+      "cityImage":"manchester.png",
+      "popular":false,
       "country": "UK",
       "cars": [
         {
@@ -3826,10 +3860,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 48,
-          "car_image": "https://example.com/vw_golf.jpg",
+          "car_image": "vw_golf.jpg",
           "seats": 5,
           "rental_company": "GlobalRent",
-          "company_logo": "https://example.com/globalrent_logo.png"
+          "company_logo": "globalrent_logo.png"
         },
         {
           "id": 82,
@@ -3840,10 +3874,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 42,
-          "car_image": "https://example.com/ford_focus.jpg",
+          "car_image": "ford_focus.jpg",
           "seats": 5,
           "rental_company": "FastRent",
-          "company_logo": "https://example.com/fastrent_logo.png"
+          "company_logo": "fastrent_logo.png"
         },
         {
           "id": 83,
@@ -3854,10 +3888,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 85,
-          "car_image": "https://example.com/audi_a5.jpg",
+          "car_image": "audi_a5.jpg",
           "seats": 5,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         },
         {
           "id": 84,
@@ -3868,10 +3902,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 35,
-          "car_image": "https://example.com/skoda_fabia.jpg",
+          "car_image": "skoda_fabia.jpg",
           "seats": 5,
           "rental_company": "BudgetRent",
-          "company_logo": "https://example.com/budgetrent_logo.png"
+          "company_logo": "budgetrent_logo.png"
         },
         {
           "id": 85,
@@ -3882,15 +3916,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 95,
-          "car_image": "https://example.com/tesla_model3.jpg",
+          "car_image": "tesla_model3.jpg",
           "seats": 5,
           "rental_company": "EcoRent",
-          "company_logo": "https://example.com/ecorent_logo.png"
+          "company_logo": "ecorent_logo.png"
         }
       ]
     },
     {
       "city": "Birmingham",
+      "cityImage":"birmingham.png",
+      "popular":false,
       "country": "UK",
       "cars": [
         {
@@ -3902,10 +3938,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 40,
-          "car_image": "https://example.com/toyota_yaris.jpg",
+          "car_image": "toyota_yaris.jpg",
           "seats": 5,
           "rental_company": "CityRent",
-          "company_logo": "https://example.com/cityrent_logo.png"
+          "company_logo": "cityrent_logo.png"
         },
         {
           "id": 87,
@@ -3916,10 +3952,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 38,
-          "car_image": "https://example.com/vauxhall_astra.jpg",
+          "car_image": "vauxhall_astra.jpg",
           "seats": 5,
           "rental_company": "BudgetRent",
-          "company_logo": "https://example.com/budgetrent_logo.png"
+          "company_logo": "budgetrent_logo.png"
         },
         {
           "id": 88,
@@ -3930,10 +3966,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 90,
-          "car_image": "https://example.com/bmw_x3.jpg",
+          "car_image": "bmw_x3.jpg",
           "seats": 5,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         },
         {
           "id": 89,
@@ -3944,10 +3980,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 45,
-          "car_image": "https://example.com/renault_kadjar.jpg",
+          "car_image": "renault_kadjar.jpg",
           "seats": 5,
           "rental_company": "GlobalRent",
-          "company_logo": "https://example.com/globalrent_logo.png"
+          "company_logo": "globalrent_logo.png"
         },
         {
           "id": 90,
@@ -3958,15 +3994,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 130,
-          "car_image": "https://example.com/lr_discovery.jpg",
+          "car_image": "lr_discovery.jpg",
           "seats": 7,
           "rental_company": "OffroadRent",
-          "company_logo": "https://example.com/offroadrent_logo.png"
+          "company_logo": "offroadrent_logo.png"
         }
       ]
     },
     {
       "city": "New York",
+      "cityImage":"newyork.png",
+      "popular":true,
       "country": "USA",
       "cars": [
         {
@@ -3978,10 +4016,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 70,
-          "car_image": "https://example.com/ford_mustang.jpg",
+          "car_image": "ford_mustang.jpg",
           "seats": 4,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         },
         {
           "id": 92,
@@ -3992,10 +4030,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 100,
-          "car_image": "https://example.com/chevrolet_tahoe.jpg",
+          "car_image": "chevrolet_tahoe.jpg",
           "seats": 8,
           "rental_company": "OffroadRent",
-          "company_logo": "https://example.com/offroadrent_logo.png"
+          "company_logo": "offroadrent_logo.png"
         },
         {
           "id": 93,
@@ -4006,10 +4044,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 90,
-          "car_image": "https://example.com/tesla_model3.jpg",
+          "car_image": "tesla_model3.jpg",
           "seats": 5,
           "rental_company": "EcoRent",
-          "company_logo": "https://example.com/ecorent_logo.png"
+          "company_logo": "ecorent_logo.png"
         },
         {
           "id": 94,
@@ -4020,10 +4058,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 85,
-          "car_image": "https://example.com/jeep_cherokee.jpg",
+          "car_image": "jeep_cherokee.jpg",
           "seats": 5,
           "rental_company": "PremiumRent",
-          "company_logo": "https://example.com/premiumrent_logo.png"
+          "company_logo": "premiumrent_logo.png"
         },
         {
           "id": 95,
@@ -4034,15 +4072,17 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 150,
-          "car_image": "https://example.com/cadillac_escalade.jpg",
+          "car_image": "cadillac_escalade.jpg",
           "seats": 7,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         }
       ]
     },
     {
       "city": "Los Angeles",
+      "cityImage":"los.png",
+      "popular":true,
       "country": "USA",
       "cars": [
         {
@@ -4054,10 +4094,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 120,
-          "car_image": "https://example.com/tesla_models.jpg",
+          "car_image": "tesla_models.jpg",
           "seats": 5,
           "rental_company": "PremiumRent",
-          "company_logo": "https://example.com/premiumrent_logo.png"
+          "company_logo": "premiumrent_logo.png"
         },
         {
           "id": 97,
@@ -4068,10 +4108,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 80,
-          "car_image": "https://example.com/ford_f150.jpg",
+          "car_image": "ford_f150.jpg",
           "seats": 5,
           "rental_company": "OffroadRent",
-          "company_logo": "https://example.com/offroadrent_logo.png"
+          "company_logo": "offroadrent_logo.png"
         },
         {
           "id": 98,
@@ -4082,10 +4122,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 110,
-          "car_image": "https://example.com/chevrolet_camaro.jpg",
+          "car_image": "chevrolet_camaro.jpg",
           "seats": 4,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         },
         {
           "id": 99,
@@ -4096,10 +4136,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 50,
-          "car_image": "https://example.com/toyota_prius.jpg",
+          "car_image": "toyota_prius.jpg",
           "seats": 5,
           "rental_company": "EcoRent",
-          "company_logo": "https://example.com/ecorent_logo.png"
+          "company_logo": "ecorent_logo.png"
         },
         {
           "id": 100,
@@ -4110,10 +4150,10 @@
           "rental_time": "2025-08-10T10:00",
           "return_time": "2025-08-10T17:00",
           "price_per_day": 300,
-          "car_image": "https://example.com/mercedes_gclass.jpg",
+          "car_image": "mercedes_gclass.jpg",
           "seats": 5,
           "rental_company": "LuxuryRent",
-          "company_logo": "https://example.com/luxuryrent_logo.png"
+          "company_logo": "luxuryrent_logo.png"
         }
       ]
     }
