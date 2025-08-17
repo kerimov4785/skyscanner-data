@@ -1,11 +1,15 @@
-// server.js
-const jsonServer = require('json-server')
-const server = jsonServer.create()
-const router = jsonServer.router('db.json')
-const middlewares = jsonServer.defaults()
- 
-server.use(middlewares)
-server.use('', router)
-server.listen(process.env.PORT || 6000, () => {
-  console.log('JSON Server is running')
-})
+const jsonServer = require('json-server');
+const cors = require('cors');
+const server = jsonServer.create();
+const router = jsonServer.router('db.json');
+const middlewares = jsonServer.defaults();
+
+server.use(cors());
+server.use(middlewares);
+server.use(router);
+
+// Используем порт, который выдаёт Render, иначе сервер может не работать корректно
+const PORT = process.env.PORT || 3000;
+server.listen(PORT, () => {
+  console.log(`JSON Server is running on port ${PORT}`);
+});
