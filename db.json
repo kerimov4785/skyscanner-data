@@ -97,7 +97,19 @@
               "arrival": "2025-08-10T13:00",
               "price": 220,
               "airline": "Air Astana",
-              "image": "https://www.skyscanner.net/images/airlines/small/KC.png"
+              "image": "https://www.skyscanner.net/images/airlines/small/KC.png",
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 232
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 240
+                }
+              ]
             },
             {
               "id": 2,
@@ -111,7 +123,19 @@
               "roundTrip": {
                 "departure": "2025-08-20T15:00",
                 "arrival": "2025-08-20T19:00"
-              }
+              },
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 350
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 361
+                }
+              ]
             },
             {
               "id": 3,
@@ -121,6 +145,23 @@
               "arrival": "2025-08-10T12:00",
               "price": 210,
               "airline": "Scat Airlines",
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 255
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 260
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/9A.png"
             },
             {
@@ -135,7 +176,24 @@
               "roundTrip": {
                 "departure": "2025-08-20T09:00",
                 "arrival": "2025-08-20T13:00"
-              }
+              },
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 340
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 356
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 374
+                }
+              ]
             },
             {
               "id": 101,
@@ -145,6 +203,28 @@
               "arrival": "2025-08-10T11:00",
               "price": 230,
               "airline": "Scat Airlines",
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 240
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 235
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 250
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 245
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/9A.png"
             },
             {
@@ -159,7 +239,29 @@
               "roundTrip": {
                 "departure": "2025-08-20T14:00",
                 "arrival": "2025-08-20T18:00"
-              }
+              },
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 360
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 365
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 370
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 383
+                }
+              ]
             },
             {
               "id": 103,
@@ -169,6 +271,33 @@
               "arrival": "2025-08-10T13:00",
               "price": 215,
               "airline": "Qazaq Air",
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 215
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 275
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 290
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 285
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 295
+                }
+              ],
               "image": "data:image/png;base64,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"
             },
             {
@@ -183,7 +312,24 @@
               "roundTrip": {
                 "departure": "2025-08-20T11:00",
                 "arrival": "2025-08-20T15:00"
-              }
+              },
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 365
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 370
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 330
+                }
+              ]
             }
           ]
         },
@@ -198,6 +344,18 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T16:00",
               "price": 250,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 252
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "airline": "Scat Airlines",
               "image": "https://www.skyscanner.net/images/airlines/small/9A.png",
               "roundTrip": {
@@ -212,6 +370,18 @@
               "departure": "2025-08-10T09:30",
               "arrival": "2025-08-10T13:30",
               "price": 380,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 380
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 391
+                }
+              ],
               "airline": "Air Astana",
               "image": "https://www.skyscanner.net/images/airlines/small/KC.png"
             },
@@ -222,6 +392,23 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T11:00",
               "price": 220,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 255
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 260
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "airline": "Qazaq Air",
               "image": "data:image/png;base64,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"
             },
@@ -232,6 +419,23 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 350,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 350
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 356
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 374
+                }
+              ],
               "airline": "Scat Airlines",
               "image": "https://www.skyscanner.net/images/airlines/small/9A.png",
               "roundTrip": {
@@ -246,6 +450,28 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 240,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 240
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 245
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 250
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 285
+                }
+              ],
               "airline": "Air Astana",
               "image": "https://www.skyscanner.net/images/airlines/small/KC.png",
               "roundTrip": {
@@ -260,6 +486,28 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T12:00",
               "price": 370,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 380
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 375
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 370
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 383
+                }
+              ],
               "airline": "Qazaq Air",
               "image": "data:image/png;base64,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"
             },
@@ -270,6 +518,33 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T18:00",
               "price": 225,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 245
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 275
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 290
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 285
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 295
+                }
+              ],
               "airline": "Scat Airlines",
               "image": "https://www.skyscanner.net/images/airlines/small/9A.png"
             },
@@ -280,6 +555,23 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 340,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 365
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 370
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 340
+                }
+              ],
               "airline": "Air Astana",
               "image": "https://www.skyscanner.net/images/airlines/small/KC.png",
               "roundTrip": {
@@ -300,6 +592,18 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T12:00",
               "price": 210,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 232
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 240
+                }
+              ],
               "airline": "Qazaq Air",
               "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABL1BMVEX///80NXCiN5IUvNr+1y8bcrgrLGwyM298fZ0kJWmvr8IAttcAuNgwMW4YGmR4eZlGR3v+1AAAZrMAY7IoKWotLm3p6e8UFmMAabQeH2YaHGWgL48AbLXCwtD+1iTv7/Og3uycIIs7PHTc3OQAAF6aFojz+/26usoLDmFwcJRbXIdiY4yQkKv17PPO7fW05PDautX+55aiorjQ0Nv/4CjDibnJmMHv4u3gxtx70ubo1OX+7bGhvdzZ5PDd8/i+0eZ8pdD+4XWT2epHxd+5dK7//fWRstb+8sg8gL6zZaYVIHPmwzuJiaaoR5m/gLRkzOPSq8v+9df+3FX+7rj+88/+5IZilcj+4G3+2kOauNlNicKtV6BjWWekjla4nk6LeV17bWFUTWrJrEdnXGZBP20YEe0OAAAK6klEQVR4nO2beVsaSRPAQZRxOAUGhksQEIGAR4AYoyImXomSxGzOTTbX7n7/z/DO0d1T1dNks4++C/Gp319JMTPd1V1d14yBAEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEHccap7O3sPJdnG1vb20Uxmc/tsnjZrtVrz+R6QHZ1EYxYnWzOb1S2y1ywt2JSaD4RsOxpyiT6Z4cxuif3mAqe2y2RbXMFQKLY2y8ndCguAJjuMIUB0Y7bzuzF7NaBh6YUj245BFR/NeIY35UEJbmLJkb0MIWY8w5vyDGnYrNqyE6RgbNZTvCEqDUN3SsMXd95Ksac5dWRrd8rTBOAeNvddGdQw+sunbjDi86RmG0T8O5DU7LCsbaF5KmRrXMXYL2+jNg8/NWulWm1hB8i2TuzEOxrantmsbpfNnevrfUl2tL12Z6ongiD+n2xsr63JfQiVVzl7fXDwSpKNxoeHI0k2b95n46XTa0FV+uYzJzKUroHs1W+pSqWSWnwNZKOnmXw5n14aA9lWyHlcaG56N6IVETsRMt6TWag9E7LXqcqiQ+qxkB1mllwyx0L2ZN56N0cgueQqPgQZGk9g3qQWOZW3TDbmCi4tpc+ZDKTjc9K7gWVslKUmz0v+LLuy6JFihzG/5JHJOaINmI3H5qF3c4QqIHcT91Gl5Nrp6xTQsOLa6SHUsHzsyJ4gDefBTnGN5zbMdnE971z3Fu7hYsWRvSsvQRwZNAnP7GfJIzSjmOPjT5GGtU1b9hvSMHVmy54iBdPO80L4eTPTy+Pua3j3rVTpaZpAQdaTuVB4mjHyNG64QCs2H+ECLnqMpSGfFNECGSmLFnAPM06DEUeL+ej0gynFXjLZQ0VP5pW3ian7TAYj/iGTgd5NdE4qf2Gn0ZdCtl/jPZkXQnYhsra3QjbOsG3MnAuZ6N1E1/6T+f8EG4/cTBmuuOpt6Nn7lJV6pz5cANnoXSafz2eewuriyOndxE7mqboIqN5U7/vfaJ9dvL6Qq6fqeDyuSrKNre2tuTiCBEHMOaPD89/Hkuxo7Ymvn/Pq4P79N5Js/3rX1+OZN0ZP0+VyOZ/+Hcjs/ktI6udcLDq9m8oBkO0s1EqlUq0Eu/9zh0hW8h+FbE3Rz7nPE53UeyF7wBMi8N3N3DHysrHyOyaDb9J48nOg6N1cew0C8d3N/IHKPnYYUZHlHsazlD8b34R1SXNzVhr8A+M0rIpcO8XfzribeABrRraJqLYszesmnqPKNuPIpF6AI3uPquJFR/YJafh8Zjr8GFy7p502Ia7d3TbhB6RgyrkXtQcWajPU4kdIGqq+DvrFNcRW6naYsJW63848Rlb6wZGhL4tKz6aOMVtGyNO44WJL8e0M7hK7hf817CbXrqeOMWM+gk3MsOIWRQtWTCIjPXNlpR8babUqF5P/DdK4VW8TxRuXI8XXsrB3w9+57XkBsQk7BBark5WEmTDb9WRkqpoRh5x0Y0RFC6vgClUPHvTu2eOawY7386js7mIZvDUTdgremvHeTSXlJaY74mtpnJj29UI4HrTRsno7KSnBaLV1i2IHS7tF3U/hHn68c6fZ8z2ybxSMuMbH7TS4/DidzuczH2H/xe3nRNFX62ePU6lKKvUe9jZYj+cUJTStghGEZNsTlYYr7hq08VZ0skE/cayhq0SwID1wVdc1PO6y+G00Hvm2/GjL3395dfHmTJbt70nF07Lpm6G+4reoQcL9zcBb8RMarhbYUyPozompyfcZQbX53Iyurphi1vCpKFTR/62G99zND2p1KE0WVDcWbl/FZZWC1lBB6bpqW2wwciP/rGFD2Ehx4El7KgWtVfAv7Q1Z9Uw0a+h6WPzPkDxKT5xVbQXKu+2EQFyCNEyKh2a7Qjhoe+NaXiisKa65HcSjs2an34pMDLGl5gBdCJYcbkWgmhNU+1zFQh9cAI65KWywLsa9/OPzly9f42LcxOqUqe7tPtiVexPj8+NzuZ+DifAH611mHX1+/uMrygvtSXVUj7LMMaHa/z5w1GHupFt8wfTvV8NhpTKsfL5k4+LT6ulXcvovTVj0jct5Xz9HJsicgO7FhwFX0WyAC1eg32sr3UGV+/4sWhsD3KmZ/HF83G9DlpYMrwqawkQ4uzxZqX0SsmOe/IB+jgxfdWT8fH1hWBgUgYJywOCzZj5H06GzaCGPorvmm2OWm/0+FJnX8M9LaaMBO142VuLf2Bx62V3+eJqG3PZMtCnMu0MzZR5TY4lPUfGsLrfGNtx7vlss6GtxV2027uUVyJ6Hf7FBZDduAWsGlnBueA0rL0P3sRz2b6EYH+iRcz2fdo/NV4rdNsL7myiYMCuJd4Isr3H8CHPMcbCFFn+yR5i+zGVH8Y3NIawj2fc0frruqhl9JM0x2zWFtbEZ6a0Im5rPG7S4xywoU57CgCvlxJEkG/cr0vADM9Oi75jjvyhxyyLVlwp+mD3iGB4IsNkmxEju4lp+grv+guTSRXgzsDmwPEEzRNx3/BfTW/+MNBxyDRsBiU+KvwpSfW0yXUNsdFVZQ3Zcw8tiblmcWlcLyhAjNt92TczAw8mpGlamavhM8QUK1jA/RUM2kuQbG/w8cEHdnVzBGnnAf0OzqPPMsyDlXOzqYtWuJNx/27UJO//hb0jDq0v5dHDwX+ctOLJjZKVPp2g4cZdY8l596bDxUJHtWbAULLwMbrjH87K2tPrcZwX73p32oWcjaAbsJg0/szWQqyz5Gxv3jQTuHE8L+jxa4GPFhCIudXlybRiGyDHBQk94vmPKLpbnCRq8Uwf1FDJTFlFUKRP6xoYVt+gYTntxzyMvCtIdNpfEAF+E8fxvhCdruhyqeUmJsfwaL1S0yyuxi8Nvhmq5XcALCdGeAG9wMtNzU549xb3SM8l2RDiNSdg/S2tyYa4Gd6NhX1WgrKycB3Oz0MJX7i5Whl8LfCqqiT4s8f6L1yMc5Xk/5wfJt8ipNLPn6Niq+1ITfykOl5oHT0WMzLWVN9rGscqzQO3yq5V6Dxe//M1Nva1KSwP2W5em3X+B36BsnJfT+XT6+IclpahigkYivFJP6HH+X36m+mxojQO2IuDl7kHNN44oKaVb7YPGjcca6NL4/velN25ffoxgc1/+xMZaxdG0fI0zgOsch7tVt2YUtubC0i0tG2dw00vYmywqJq2+Aqn3vZLSu5NXLTm0v5o0bjwetsJt3fbWK71AQjdXpmzrz9FXegO28FbU424vIQIBdxOOz2sU4fUeVtQTab3YXJ7X2PE3ovRf7EGWHQ/aduC0NFzvNzqmcuo/S2/qUE4SydIeWJdyB2JPoVFU3plNigMA03rek7IjXr+tPt9ssO7ENgNbw0h1sn4jDQORttLlBR1nwpcdJnY8A7C3YoqG1ubzq6Dz51WT87RVc9q41s+59VzEdDQsmuvatMbGz5LrmuqAoIn8Clc0dW8r1BrCgICajzwiOBZR7bQN5T5az+0lDN2qw+w9XO2p+xr/isakUNSNcBZTjASq62EHPQkv7ydcqZXDNNphBdbccuxOXE31Cq60zULNxEj4x7VvWe8NGt26o2HLOoo3V9FSstVbTmIsT7KaXHbooISz2nGlyUkgx/6Jse6M8DtRsccvT/a9cfu+cauBgd0Ya3Rzk0igMwhEbrvDSBAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRDT+R//pDVrUokKxQAAAABJRU5ErkJggg=="
             },
@@ -310,6 +614,18 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 340,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 350
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 361
+                }
+              ],
               "airline": "Air Astana",
               "image": "https://www.skyscanner.net/images/airlines/small/KC.png",
               "roundTrip": {
@@ -324,6 +640,23 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T18:00",
               "price": 215,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 255
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 260
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "airline": "Scat Airlines",
               "image": "https://www.skyscanner.net/images/airlines/small/9A.png"
             },
@@ -334,6 +667,23 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 330,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 340
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 356
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 374
+                }
+              ],
               "airline": "Qazaq Air",
               "image": "data:image/png;base64,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",
               "roundTrip": {
@@ -348,6 +698,28 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 205,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 240
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 235
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 250
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 245
+                }
+              ],
               "airline": "Air Astana",
               "image": "https://www.skyscanner.net/images/airlines/small/KC.png",
               "roundTrip": {
@@ -362,6 +734,28 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T11:00",
               "price": 320,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 360
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 365
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 370
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 383
+                }
+              ],
               "airline": "Scat Airlines",
               "image": "https://www.skyscanner.net/images/airlines/small/9A.png"
             },
@@ -372,6 +766,33 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T17:00",
               "price": 225,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 215
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 275
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 290
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 285
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 295
+                }
+              ],
               "airline": "Qazaq Air",
               "image": "data:image/png;base64,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"
             },
@@ -382,6 +803,23 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 335,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 365
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 370
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 330
+                }
+              ],
               "airline": "Air Astana",
               "image": "https://www.skyscanner.net/images/airlines/small/KC.png",
               "roundTrip": {
@@ -409,6 +847,18 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T10:00",
               "price": 180,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 192
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 200
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines"
             },
@@ -419,6 +869,18 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T12:00",
               "price": 290,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 350
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 361
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines",
               "roundTrip": {
@@ -433,6 +895,23 @@
               "departure": "2025-08-10T06:00",
               "arrival": "2025-08-10T09:00",
               "price": 200,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 255
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 260
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines"
             },
@@ -443,6 +922,23 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T16:00",
               "price": 310,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 340
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 356
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 374
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines",
               "roundTrip": {
@@ -457,6 +953,28 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T11:00",
               "price": 190,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 240
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 235
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 250
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 245
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines",
               "roundTrip": {
@@ -471,6 +989,28 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T14:00",
               "price": 280,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 320
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 365
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 370
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 383
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines"
             },
@@ -481,6 +1021,33 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T10:00",
               "price": 195,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 215
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 275
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 290
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 285
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 295
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines"
             },
@@ -491,6 +1058,23 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T17:00",
               "price": 300,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 365
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 370
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 330
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines",
               "roundTrip": {
@@ -511,6 +1095,18 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T14:00",
               "price": 190,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 232
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 240
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines",
               "roundTrip": {
@@ -525,6 +1121,18 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T11:00",
               "price": 280,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 350
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 361
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines"
             },
@@ -535,6 +1143,23 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T12:00",
               "price": 195,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 255
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 260
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines"
             },
@@ -545,6 +1170,23 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T17:00",
               "price": 290,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 340
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 356
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 374
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines",
               "roundTrip": {
@@ -559,6 +1201,28 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T13:00",
               "price": 185,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 240
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 235
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 250
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 245
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines"
             },
@@ -569,6 +1233,28 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T15:00",
               "price": 275,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 360
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 365
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 370
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 383
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines",
               "roundTrip": {
@@ -583,6 +1269,33 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T11:00",
               "price": 200,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 215
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 275
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 290
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 285
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 295
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines"
             },
@@ -593,6 +1306,23 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T18:00",
               "price": 285,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 365
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 370
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 330
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines",
               "roundTrip": {
@@ -613,6 +1343,18 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T13:00",
               "price": 170,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 232
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 240
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines"
             },
@@ -623,6 +1365,18 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T14:00",
               "price": 260,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 350
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 361
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines",
               "roundTrip": {
@@ -637,6 +1391,23 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T10:00",
               "price": 180,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 185
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 260
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines"
             },
@@ -647,6 +1418,23 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T17:00",
               "price": 270,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 340
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 356
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 374
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines",
               "roundTrip": {
@@ -661,6 +1449,28 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T12:00",
               "price": 175,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 240
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 235
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 250
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 245
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines",
               "roundTrip": {
@@ -675,6 +1485,28 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T16:00",
               "price": 255,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 360
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 365
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 370
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 383
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines"
             },
@@ -685,6 +1517,33 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T11:00",
               "price": 185,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 215
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 275
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 290
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 285
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 295
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/TK.png",
               "airline": "Turkish Airlines"
             },
@@ -695,6 +1554,23 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T19:00",
               "price": 265,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 365
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 370
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 330
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/H9.png",
               "airline": "Pegasus Airlines",
               "roundTrip": {
@@ -722,6 +1598,18 @@
               "departure": "2025-08-10T06:00",
               "arrival": "2025-08-10T09:00",
               "price": 190,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 232
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 240
+                }
+              ],
               "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot"
             },
@@ -732,6 +1620,18 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T11:00",
               "price": 320,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 350
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 361
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines",
               "roundTrip": {
@@ -746,6 +1646,23 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T10:00",
               "price": 200,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 255
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 260
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot"
             },
@@ -756,6 +1673,23 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T16:00",
               "price": 310,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 340
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 356
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 374
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines",
               "roundTrip": {
@@ -770,6 +1704,28 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T12:00",
               "price": 195,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 240
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 235
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 250
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 245
+                }
+              ],
               "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot",
               "roundTrip": {
@@ -784,6 +1740,28 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T13:00",
               "price": 305,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 360
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 365
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 370
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 383
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines"
             },
@@ -794,6 +1772,33 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T11:00",
               "price": 205,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 215
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 275
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 290
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 285
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 295
+                }
+              ],
               "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot"
             },
@@ -804,6 +1809,23 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T18:00",
               "price": 315,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 365
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 370
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 330
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines",
               "roundTrip": {
@@ -824,6 +1846,18 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T13:00",
               "price": 185,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 232
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 240
+                }
+              ],
               "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot",
               "roundTrip": {
@@ -838,6 +1872,18 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T10:00",
               "price": 300,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 350
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 361
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines"
             },
@@ -848,6 +1894,23 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T12:00",
               "price": 195,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 255
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 260
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot"
             },
@@ -858,6 +1921,23 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T17:00",
               "price": 290,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 340
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 356
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 374
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines",
               "roundTrip": {
@@ -872,6 +1952,28 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T14:00",
               "price": 180,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 240
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 235
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 250
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 245
+                }
+              ],
               "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot"
             },
@@ -882,6 +1984,28 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T12:00",
               "price": 295,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 360
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 365
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 370
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 383
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines",
               "roundTrip": {
@@ -896,6 +2020,33 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T13:00",
               "price": 200,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 215
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 275
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 290
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 285
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 295
+                }
+              ],
               "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot"
             },
@@ -906,6 +2057,23 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T19:00",
               "price": 285,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 365
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 370
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 330
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines",
               "roundTrip": {
@@ -926,6 +2094,18 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T14:00",
               "price": 170,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 232
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 240
+                }
+              ],
               "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot"
             },
@@ -936,6 +2116,18 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T13:00",
               "price": 260,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 350
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 361
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines",
               "roundTrip": {
@@ -950,6 +2142,23 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T12:00",
               "price": 180,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 255
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 260
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot"
             },
@@ -960,6 +2169,23 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T17:00",
               "price": 270,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 340
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 356
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 374
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines",
               "roundTrip": {
@@ -974,6 +2200,28 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T15:00",
               "price": 175,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 240
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 235
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 250
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 245
+                }
+              ],
               "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot",
               "roundTrip": {
@@ -988,6 +2236,28 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T11:00",
               "price": 255,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 360
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 365
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 370
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 383
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines"
             },
@@ -998,6 +2268,33 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T16:00",
               "price": 185,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 215
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 275
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 290
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 285
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 295
+                }
+              ],
               "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMjHhDe-2NF-1U1H7md3amRdT5-LHQipS0g&s",
               "airline": "Aeroflot"
             },
@@ -1008,6 +2305,23 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T18:00",
               "price": 265,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 365
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 370
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 330
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/S7.png",
               "airline": "S7 Airlines",
               "roundTrip": {
@@ -1035,6 +2349,18 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T12:00",
               "price": 230,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 232
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 240
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa"
             },
@@ -1045,6 +2371,18 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 360,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 350
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 361
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings",
               "roundTrip": {
@@ -1059,6 +2397,23 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 220,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 255
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 260
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa"
             },
@@ -1069,6 +2424,23 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T18:00",
               "price": 350,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 340
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 356
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 374
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings",
               "roundTrip": {
@@ -1083,6 +2455,28 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T11:00",
               "price": 235,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 240
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 235
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 250
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 245
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa",
               "roundTrip": {
@@ -1097,6 +2491,28 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T16:00",
               "price": 355,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 360
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 365
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 370
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 383
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings"
             },
@@ -1107,6 +2523,33 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 225,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 215
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 275
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 290
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 285
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 295
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa"
             },
@@ -1117,6 +2560,23 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T19:00",
               "price": 345,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 365
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 370
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 330
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings",
               "roundTrip": {
@@ -1137,6 +2597,18 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 240,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 232
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 240
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa",
               "roundTrip": {
@@ -1151,6 +2623,18 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T12:00",
               "price": 370,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 350
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 361
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings"
             },
@@ -1161,6 +2645,23 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 225,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 255
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 260
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa"
             },
@@ -1171,6 +2672,23 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T19:00",
               "price": 355,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 340
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 356
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 374
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings",
               "roundTrip": {
@@ -1185,6 +2703,28 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 245,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 240
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 235
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 250
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 245
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa"
             },
@@ -1195,6 +2735,28 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T18:00",
               "price": 365,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 360
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 365
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 370
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 383
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings",
               "roundTrip": {
@@ -1209,6 +2771,33 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 230,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 215
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 275
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 290
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 285
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 295
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa"
             },
@@ -1219,6 +2808,23 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T20:00",
               "price": 350,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 365
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 370
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 330
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings",
               "roundTrip": {
@@ -1239,6 +2845,18 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 225,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 232
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 240
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa"
             },
@@ -1249,6 +2867,18 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 365,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 350
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 361
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings",
               "roundTrip": {
@@ -1263,6 +2893,23 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T12:00",
               "price": 230,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 255
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 260
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa"
             },
@@ -1273,6 +2920,23 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T18:00",
               "price": 350,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 340
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 356
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 374
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings",
               "roundTrip": {
@@ -1287,6 +2951,28 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 220,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 240
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 235
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 250
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 245
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa",
               "roundTrip": {
@@ -1301,6 +2987,28 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T16:00",
               "price": 360,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 360
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 365
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 370
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 383
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings"
             },
@@ -1311,6 +3019,33 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 235,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 215
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 275
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 290
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 285
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 295
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/LH.png",
               "airline": "Lufthansa"
             },
@@ -1321,6 +3056,23 @@
               "departure": "2025-08-10T17:00",
               "arrival": "2025-08-10T21:00",
               "price": 355,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 365
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 370
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 330
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/EW.png",
               "airline": "Eurowings",
               "roundTrip": {
@@ -1348,6 +3100,18 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T11:00",
               "price": 240,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 232
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 240
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
@@ -1358,6 +3122,18 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 370,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 350
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 361
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
@@ -1372,6 +3148,23 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T12:00",
               "price": 230,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 255
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 260
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
@@ -1382,6 +3175,23 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T18:00",
               "price": 360,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 340
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 356
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 374
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
@@ -1396,6 +3206,28 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 235,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 240
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 235
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 250
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 245
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
@@ -1406,6 +3238,28 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 365,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 360
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 365
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 370
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 383
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
@@ -1420,6 +3274,33 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 245,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 215
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 275
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 290
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 285
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 295
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
@@ -1430,6 +3311,23 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T19:00",
               "price": 355,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 365
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 370
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 330
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
@@ -1450,6 +3348,18 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 220,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 232
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 240
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
@@ -1464,6 +3374,18 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 350,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 350
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 361
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
@@ -1474,6 +3396,23 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 230,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 255
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 260
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
@@ -1484,6 +3423,23 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T17:00",
               "price": 360,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 340
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 356
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 374
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
@@ -1498,6 +3454,28 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T16:00",
               "price": 225,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 240
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 235
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 250
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 245
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
@@ -1508,6 +3486,28 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T12:00",
               "price": 345,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 360
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 365
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 370
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 383
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
@@ -1522,6 +3522,33 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 235,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 215
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 275
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 290
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 285
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 295
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
@@ -1532,6 +3559,23 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T20:00",
               "price": 350,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 365
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 370
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 330
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
@@ -1552,6 +3596,18 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T16:00",
               "price": 210,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 232
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 240
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
@@ -1562,6 +3618,18 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 340,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 350
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 361
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
@@ -1576,6 +3644,23 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 215,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 255
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 260
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
@@ -1586,6 +3671,23 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T18:00",
               "price": 330,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 340
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 356
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 374
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
@@ -1600,6 +3702,28 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 205,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 240
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 235
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 250
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 245
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
@@ -1614,6 +3738,28 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 335,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 360
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 365
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 370
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 383
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
@@ -1624,6 +3770,33 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T17:00",
               "price": 220,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 215
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 275
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 290
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 285
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 295
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France"
             },
@@ -1634,6 +3807,23 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T19:00",
               "price": 325,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 365
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 370
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 330
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/AF.png",
               "airline": "Air France",
               "roundTrip": {
@@ -1661,6 +3851,18 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T11:00",
               "price": 260,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 232
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 240
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways"
             },
@@ -1671,6 +3873,18 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 390,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 350
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 361
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic",
               "roundTrip": {
@@ -1685,6 +3899,23 @@
               "departure": "2025-08-10T06:00",
               "arrival": "2025-08-10T10:00",
               "price": 270,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 255
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 260
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways"
             },
@@ -1695,6 +3926,23 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T18:00",
               "price": 380,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 340
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 356
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 374
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic",
               "roundTrip": {
@@ -1709,6 +3957,28 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T12:00",
               "price": 265,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 240
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 235
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 250
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 245
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways",
               "roundTrip": {
@@ -1723,6 +3993,28 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 385,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 360
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 365
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 370
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 383
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic"
             },
@@ -1733,6 +4025,33 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 275,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 215
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 275
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 290
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 285
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 295
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways"
             },
@@ -1743,6 +4062,23 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T20:00",
               "price": 375,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 365
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 370
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 330
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic",
               "roundTrip": {
@@ -1763,6 +4099,18 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T12:00",
               "price": 250,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 232
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 240
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways",
               "roundTrip": {
@@ -1777,6 +4125,18 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 380,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 350
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 361
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic"
             },
@@ -1787,6 +4147,23 @@
               "departure": "2025-08-10T07:00",
               "arrival": "2025-08-10T11:00",
               "price": 255,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 255
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 260
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways"
             },
@@ -1797,6 +4174,23 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T19:00",
               "price": 360,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 340
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 356
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 374
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic",
               "roundTrip": {
@@ -1811,6 +4205,28 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 245,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 240
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 235
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 250
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 245
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways"
             },
@@ -1821,6 +4237,28 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T16:00",
               "price": 370,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 360
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 365
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 370
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 383
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic",
               "roundTrip": {
@@ -1835,6 +4273,33 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 260,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 215
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 275
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 290
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 285
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 295
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways"
             },
@@ -1845,6 +4310,23 @@
               "departure": "2025-08-10T17:00",
               "arrival": "2025-08-10T21:00",
               "price": 355,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 365
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 370
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 330
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic",
               "roundTrip": {
@@ -1865,6 +4347,18 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T13:00",
               "price": 240,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 232
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 240
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways"
             },
@@ -1875,6 +4369,18 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 370,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 350
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 361
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic",
               "roundTrip": {
@@ -1889,6 +4395,23 @@
               "departure": "2025-08-10T08:00",
               "arrival": "2025-08-10T12:00",
               "price": 235,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 255
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 260
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 250
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways"
             },
@@ -1899,6 +4422,23 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T18:00",
               "price": 365,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 340
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 356
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 374
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic",
               "roundTrip": {
@@ -1913,6 +4453,28 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T15:00",
               "price": 230,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 240
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 235
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 250
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 245
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways",
               "roundTrip": {
@@ -1927,6 +4489,28 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T14:00",
               "price": 360,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 360
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 365
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 370
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 383
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic"
             },
@@ -1937,6 +4521,33 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T16:00",
               "price": 245,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 215
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 275
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 290
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 285
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 295
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/BA.png",
               "airline": "British Airways"
             },
@@ -1947,6 +4558,23 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T19:00",
               "price": 350,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 365
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 370
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 330
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/VS.png",
               "airline": "Virgin Atlantic",
               "roundTrip": {
@@ -1974,6 +4602,18 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T22:00",
               "price": 600,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 632
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 640
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines"
             },
@@ -1984,6 +4624,18 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T00:00",
               "price": 1100,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 1100
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 1361
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines",
               "roundTrip": {
@@ -1998,6 +4650,23 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T22:00",
               "price": 620,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 655
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 660
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 650
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines"
             },
@@ -2008,6 +4677,23 @@
               "departure": "2025-08-10T18:00",
               "arrival": "2025-08-10T02:00",
               "price": 1150,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 1150
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 1156
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 1174
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines",
               "roundTrip": {
@@ -2022,6 +4708,28 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T23:00",
               "price": 610,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 640
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 635
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 650
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 645
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines",
               "roundTrip": {
@@ -2036,6 +4744,28 @@
               "departure": "2025-08-10T17:00",
               "arrival": "2025-08-10T01:00",
               "price": 1080,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 1080
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 1095
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 1170
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 1183
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines"
             },
@@ -2046,6 +4776,33 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T00:00",
               "price": 630,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 630
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 675
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 690
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 685
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 695
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines"
             },
@@ -2056,6 +4813,23 @@
               "departure": "2025-08-10T19:00",
               "arrival": "2025-08-10T03:00",
               "price": 1120,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 1165
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 1170
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 1130
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines",
               "roundTrip": {
@@ -2076,6 +4850,18 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T23:00",
               "price": 630,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 632
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 640
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines",
               "roundTrip": {
@@ -2090,6 +4876,18 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T02:00",
               "price": 1200,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 1200
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 1361
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines"
             },
@@ -2100,6 +4898,23 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T01:00",
               "price": 640,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 655
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 660
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 650
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines"
             },
@@ -2110,6 +4925,23 @@
               "departure": "2025-08-10T17:00",
               "arrival": "2025-08-10T03:00",
               "price": 1180,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 1150
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 1156
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 1174
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines",
               "roundTrip": {
@@ -2124,6 +4956,28 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T00:00",
               "price": 620,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 640
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 635
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 650
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 645
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines"
             },
@@ -2134,6 +4988,28 @@
               "departure": "2025-08-10T18:00",
               "arrival": "2025-08-10T04:00",
               "price": 1150,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 1180
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 1195
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 1170
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 1183
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines",
               "roundTrip": {
@@ -2148,6 +5024,33 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T02:00",
               "price": 650,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 630
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 675
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 690
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 685
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 695
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines"
             },
@@ -2158,6 +5061,23 @@
               "departure": "2025-08-10T19:00",
               "arrival": "2025-08-10T05:00",
               "price": 1170,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 1175
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 1170
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 1130
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines",
               "roundTrip": {
@@ -2178,6 +5098,18 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T19:00",
               "price": 580,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 632
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 640
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines"
             },
@@ -2188,6 +5120,18 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T21:00",
               "price": 1050,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 1100
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 1361
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines",
               "roundTrip": {
@@ -2202,6 +5146,23 @@
               "departure": "2025-08-10T09:00",
               "arrival": "2025-08-10T17:00",
               "price": 590,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 655
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 660
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 650
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines"
             },
@@ -2212,6 +5173,23 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T23:00",
               "price": 1070,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 1150
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 1156
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 1174
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines",
               "roundTrip": {
@@ -2226,6 +5204,28 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T20:00",
               "price": 570,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 640
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 635
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 650
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 645
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines",
               "roundTrip": {
@@ -2240,6 +5240,28 @@
               "departure": "2025-08-10T10:00",
               "arrival": "2025-08-10T18:00",
               "price": 1040,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 1080
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 1095
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 1170
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 1183
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines"
             },
@@ -2250,6 +5272,33 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T19:00",
               "price": 600,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 630
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 675
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 690
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 685
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 695
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/DL.png",
               "airline": "Delta Airlines"
             },
@@ -2260,6 +5309,23 @@
               "departure": "2025-08-10T17:00",
               "arrival": "2025-08-10T01:00",
               "price": 1060,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 1165
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 1170
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 1130
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/UA.png",
               "airline": "United Airlines",
               "roundTrip": {
@@ -2287,6 +5353,18 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T22:00",
               "price": 450,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 452
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 450
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China"
             },
@@ -2297,6 +5375,18 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T00:00",
               "price": 800,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 800
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 861
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/MU.png",
               "airline": "China Eastern",
               "roundTrip": {
@@ -2311,6 +5401,23 @@
               "departure": "2025-08-10T11:00",
               "arrival": "2025-08-10T21:00",
               "price": 460,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 465
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 460
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 450
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China"
             },
@@ -2321,6 +5428,23 @@
               "departure": "2025-08-10T17:00",
               "arrival": "2025-08-10T03:00",
               "price": 820,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 850
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 856
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 874
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/MU.png",
               "airline": "China Eastern",
               "roundTrip": {
@@ -2335,6 +5459,28 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T23:00",
               "price": 440,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 440
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 455
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 450
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 445
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China",
               "roundTrip": {
@@ -2349,6 +5495,28 @@
               "departure": "2025-08-10T16:00",
               "arrival": "2025-08-10T02:00",
               "price": 790,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 790
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 795
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 770
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 783
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/MU.png",
               "airline": "China Eastern"
             },
@@ -2359,6 +5527,33 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T22:00",
               "price": 470,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 470
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 475
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 490
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 485
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 495
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China"
             },
@@ -2369,6 +5564,23 @@
               "departure": "2025-08-10T18:00",
               "arrival": "2025-08-10T04:00",
               "price": 810,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 865
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 870
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 830
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/MU.png",
               "airline": "China Eastern",
               "roundTrip": {
@@ -2389,6 +5601,18 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T23:00",
               "price": 460,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 452
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 450
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China",
               "roundTrip": {
@@ -2403,6 +5627,18 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T00:00",
               "price": 820,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 800
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 861
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/MU.png",
               "airline": "China Eastern"
             },
@@ -2413,6 +5649,23 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T22:00",
               "price": 470,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 465
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 460
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 450
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China"
             },
@@ -2423,6 +5676,23 @@
               "departure": "2025-08-10T18:00",
               "arrival": "2025-08-10T03:00",
               "price": 830,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 850
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 856
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 874
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/MU.png",
               "airline": "China Eastern",
               "roundTrip": {
@@ -2437,6 +5707,28 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T00:00",
               "price": 450,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 440
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 455
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 450
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 445
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China"
             },
@@ -2447,6 +5739,28 @@
               "departure": "2025-08-10T17:00",
               "arrival": "2025-08-10T02:00",
               "price": 810,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 790
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 795
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 770
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 783
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/MU.png",
               "airline": "China Eastern",
               "roundTrip": {
@@ -2461,6 +5775,33 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T23:00",
               "price": 480,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 470
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 475
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 490
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 485
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 495
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China"
             },
@@ -2471,6 +5812,23 @@
               "departure": "2025-08-10T19:00",
               "arrival": "2025-08-10T04:00",
               "price": 825,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 865
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 870
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 830
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/MU.png",
               "airline": "China Eastern",
               "roundTrip": {
@@ -2491,6 +5849,18 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T23:00",
               "price": 440,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 4,
+                  "price": 452
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 3,
+                  "price": 450
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China"
             },
@@ -2501,6 +5871,18 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T00:00",
               "price": 810,
+              "reservation": [
+                {
+                  "name": "eDreams",
+                  "rating": 5,
+                  "price": 800
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 2,
+                  "price": 861
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/CZ.png",
               "airline": "China Southern",
               "roundTrip": {
@@ -2515,6 +5897,23 @@
               "departure": "2025-08-10T12:00",
               "arrival": "2025-08-10T22:00",
               "price": 450,
+              "reservation": [
+                {
+                  "name": "Bravofly",
+                  "rating": 2,
+                  "price": 465
+                },
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 460
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 450
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China"
             },
@@ -2525,6 +5924,23 @@
               "departure": "2025-08-10T17:00",
               "arrival": "2025-08-10T03:00",
               "price": 820,
+              "reservation": [
+                {
+                  "name": "AZAL",
+                  "rating": 4,
+                  "price": 850
+                },
+                {
+                  "name": "AJet",
+                  "rating": 3,
+                  "price": 856
+                },
+                {
+                  "name": "Farera",
+                  "rating": 5,
+                  "price": 874
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/CZ.png",
               "airline": "China Southern",
               "roundTrip": {
@@ -2539,6 +5955,28 @@
               "departure": "2025-08-10T14:00",
               "arrival": "2025-08-10T00:00",
               "price": 430,
+              "reservation": [
+                {
+                  "name": "Mytrip",
+                  "rating": 4,
+                  "price": 440
+                },
+                {
+                  "name": "eDreams",
+                  "rating": 3,
+                  "price": 455
+                },
+                {
+                  "name": "Trip.com",
+                  "rating": 5,
+                  "price": 450
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 2,
+                  "price": 445
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China",
               "roundTrip": {
@@ -2553,6 +5991,28 @@
               "departure": "2025-08-10T15:00",
               "arrival": "2025-08-10T01:00",
               "price": 800,
+              "reservation": [
+                {
+                  "name": "Trip.com",
+                  "rating": 4,
+                  "price": 790
+                },
+                {
+                  "name": "Tickets.az",
+                  "rating": 3,
+                  "price": 795
+                },
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 770
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 2,
+                  "price": 783
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/CZ.png",
               "airline": "China Southern"
             },
@@ -2563,6 +6023,33 @@
               "departure": "2025-08-10T13:00",
               "arrival": "2025-08-10T23:00",
               "price": 460,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 4,
+                  "price": 470
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 3,
+                  "price": 475
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 5,
+                  "price": 490
+                },
+                {
+                  "name": "AJet",
+                  "rating": 2,
+                  "price": 485
+                },
+                {
+                  "name": "Farera",
+                  "rating": 4,
+                  "price": 495
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/CA.png",
               "airline": "Air China"
             },
@@ -2573,6 +6060,23 @@
               "departure": "2025-08-10T18:00",
               "arrival": "2025-08-10T04:00",
               "price": 815,
+              "reservation": [
+                {
+                  "name": "Kiwi.com",
+                  "rating": 5,
+                  "price": 865
+                },
+                {
+                  "name": "BudgetAir",
+                  "rating": 4,
+                  "price": 870
+                },
+                {
+                  "name": "AZAL",
+                  "rating": 3,
+                  "price": 830
+                }
+              ],
               "image": "https://www.skyscanner.net/images/airlines/small/CZ.png",
               "airline": "China Southern",
               "roundTrip": {
@@ -2598,8 +6102,8 @@
   "cars": [
     {
       "city": "Almaty",
-      "cityImage":"almaty.png",
-      "popular":true,
+      "cityImage": "almaty.png",
+      "popular": true,
       "country": "Kazakhstan",
       "cars": [
         {
@@ -2676,8 +6180,8 @@
     },
     {
       "city": "Astana",
-      "cityImage":"astana.png",
-      "popular":false,
+      "cityImage": "astana.png",
+      "popular": false,
       "country": "Kazakhstan",
       "cars": [
         {
@@ -2754,8 +6258,8 @@
     },
     {
       "city": "Shymkent",
-      "cityImage":"shymkent.png",
-      "popular":false,
+      "cityImage": "shymkent.png",
+      "popular": false,
       "country": "Kazakhstan",
       "cars": [
         {
@@ -2832,8 +6336,8 @@
     },
     {
       "city": "Istanbul",
-      "cityImage":"istanbul.png",
-      "popular":true,
+      "cityImage": "istanbul.png",
+      "popular": true,
       "country": "Turkey",
       "cars": [
         {
@@ -2910,8 +6414,8 @@
     },
     {
       "city": "Ankara",
-      "cityImage":"ankara.png",
-      "popular":true,
+      "cityImage": "ankara.png",
+      "popular": true,
       "country": "Turkey",
       "cars": [
         {
@@ -2988,8 +6492,8 @@
     },
     {
       "city": "Izmir",
-      "cityImage":"izmir.png",
-      "popular":false,
+      "cityImage": "izmir.png",
+      "popular": false,
       "country": "Turkey",
       "cars": [
         {
@@ -3066,8 +6570,8 @@
     },
     {
       "city": "Moscow",
-      "cityImage":"moscow.png",
-      "popular":true,
+      "cityImage": "moscow.png",
+      "popular": true,
       "country": "Russia",
       "cars": [
         {
@@ -3144,8 +6648,8 @@
     },
     {
       "city": "St. Petersburg",
-      "cityImage":"petersburg.png",
-      "popular":false,
+      "cityImage": "petersburg.png",
+      "popular": false,
       "country": "Russia",
       "cars": [
         {
@@ -3222,8 +6726,8 @@
     },
     {
       "city": "Sochi",
-      "cityImage":"sochi.png",
-      "popular":true,
+      "cityImage": "sochi.png",
+      "popular": true,
       "country": "Russia",
       "cars": [
         {
@@ -3300,8 +6804,8 @@
     },
     {
       "city": "Berlin",
-      "cityImage":"berlin.png",
-      "popular":false,
+      "cityImage": "berlin.png",
+      "popular": false,
       "country": "Germany",
       "cars": [
         {
@@ -3378,8 +6882,8 @@
     },
     {
       "city": "Munich",
-      "cityImage":"munish.png",
-      "popular":false,
+      "cityImage": "munish.png",
+      "popular": false,
       "country": "Germany",
       "cars": [
         {
@@ -3456,8 +6960,8 @@
     },
     {
       "city": "Frankfurt",
-      "cityImage":"frankfurt.png",
-      "popular":true,
+      "cityImage": "frankfurt.png",
+      "popular": true,
       "country": "Germany",
       "cars": [
         {
@@ -3534,8 +7038,8 @@
     },
     {
       "city": "Paris",
-      "cityImage":"paris.png",
-      "popular":true,
+      "cityImage": "paris.png",
+      "popular": true,
       "country": "France",
       "cars": [
         {
@@ -3612,8 +7116,8 @@
     },
     {
       "city": "Lyon",
-      "cityImage":"lyon.png",
-      "popular":false,
+      "cityImage": "lyon.png",
+      "popular": false,
       "country": "France",
       "cars": [
         {
@@ -3690,8 +7194,8 @@
     },
     {
       "city": "Nice",
-      "cityImage":"nice.png",
-      "popular":true,
+      "cityImage": "nice.png",
+      "popular": true,
       "country": "France",
       "cars": [
         {
@@ -3768,8 +7272,8 @@
     },
     {
       "city": "London",
-      "cityImage":"london.png",
-      "popular":true,
+      "cityImage": "london.png",
+      "popular": true,
       "country": "UK",
       "cars": [
         {
@@ -3846,8 +7350,8 @@
     },
     {
       "city": "Manchester",
-      "cityImage":"manchester.png",
-      "popular":false,
+      "cityImage": "manchester.png",
+      "popular": false,
       "country": "UK",
       "cars": [
         {
@@ -3924,8 +7428,8 @@
     },
     {
       "city": "Birmingham",
-      "cityImage":"birmingham.png",
-      "popular":false,
+      "cityImage": "birmingham.png",
+      "popular": false,
       "country": "UK",
       "cars": [
         {
@@ -4002,8 +7506,8 @@
     },
     {
       "city": "New York",
-      "cityImage":"newyork.png",
-      "popular":true,
+      "cityImage": "newyork.png",
+      "popular": true,
       "country": "USA",
       "cars": [
         {
@@ -4080,8 +7584,8 @@
     },
     {
       "city": "Los Angeles",
-      "cityImage":"los.png",
-      "popular":true,
+      "cityImage": "los.png",
+      "popular": true,
       "country": "USA",
       "cars": [
         {
